@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -24,7 +25,8 @@
         <link rel="stylesheet" href="assets/css/themify-icons.css">
         <link rel="stylesheet" href="assets/css/slick2.css">
         <link rel="stylesheet" href="assets/css/nice-select2.css">
-        <link rel="stylesheet" href="assets/css/style2.css">   
+        <link rel="stylesheet" href="assets/css/style2.css">
+        <link rel="stylesheet" href="assets/css/filebox.css">    
 <!--CY_end-->
 
     <!--ogani-master css Start-->
@@ -96,10 +98,10 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="womens-scrubs.html">Women's</a>
+                            <a class="nav-link" href="womens-scrubs.html">Womens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mens-scrubs.html">Men's</a>
+                            <a class="nav-link" href="mens-scrubs.html">Mens</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="accessories.html">Accessories</a>
@@ -157,10 +159,9 @@ https://templatemo.com/tm-559-zay-shop
     <!-- Start Content Page -->
     <div class="container-fluid bg-light py-5">
         <div class="col-md-6 m-auto text-center">
-            <h1 class="h1">Contact Us</h1>
+            <h1 class="h1">Group order / Whole sales order</h1>
             <p>
-                Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet.
+                Please contact us with below info.
             </p>
         </div>
     </div>
@@ -172,11 +173,11 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-lg-5 col-md-6">
                     <div class="watch-details mb-40">
                         <h1>Group Order</h1>
-                        <b>PRODUCTION MINUMUMS</b>
+                        <b>Production Minimun</b>
                         <p>
-                            <li>+500 Prod</li>
-                            <li>100-300 Prod</li>
-                            <li>+300 Prod</li>
+                            <li>+100pcs</li>
+                            <li>+300pcs</li>
+                            <li>+500pcs</li>
                         </p>
                     </div>
                 </div>
@@ -190,21 +191,83 @@ https://templatemo.com/tm-559-zay-shop
     </div>
     
 <!-- Group Order From Image -->
-    <div style="text-align : center;">
-        <div>
-            <div>
-                <div>
-                    <h1>Group Order Form<br></h1>
-                    <h3><br></h3>
-                    <img src="assets/img/gallery/GroupOrderForm.png" alt="" >
+    
+    <div class="contact-form spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="contact__form__title">
+                            <h2>Group Order Form</h2>
+                        </div>
+                    </div>
                 </div>
-                <br>
-                <input type = "button" value="Download">
-            </div>
-            <br>
-            <h3>Please send the above form to the email below.</h3>
+                <form action="#">
+                    <div class="row">
+                        <!--First Name / Last Name-->
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="First Name">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <!--Email / Phone Number-->
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        <!--Company Name / School Name -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Company Name / School Name">
+                        </div>
+                        <!--Items Description -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Items / Description">
+                        </div>
+                        <!--Color -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Color">
+                        </div>
+                        <!--How many sets per Employee are you are looking for to get -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="How many sets per Employee are you are looking for to get">
+                        </div>
+                        <!--How many sets you need -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="How many sets you need">
+                        </div>
+                        <!--Logo (upload design) -->
+                        <form action="upload" id="uploadForm" method="post" enctype="multipart/form-data">
 
+                        <!--<input type="file" name="file" id="imageFileOpenInput" accept="image/*">
+                        -->
+                        <div class="filebox">
+                        <label for="ex_file">Embroidery - Logo(upload design)</label>
+                        <input type="file" id="ex_file">
+                        </div>
+                        <h4><br></h4>
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Embroidery - Text Line 1">
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Embroidery - Text Line 2">
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Embroidery - Text Line 3">
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <textarea placeholder="Additional Message"></textarea>
+                            <button type="submit" class="site-btn">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
+
+
+
+
 <br>
 <br>
 <br>
