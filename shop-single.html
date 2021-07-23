@@ -22,7 +22,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
     <!--plus details-->
     <link href="assets/css/details.css" rel="stylesheet">
-
+    <link href="assets/css/embroidery.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
 <!--
     
 TemplateMo 559 Zay Shop
@@ -130,19 +131,18 @@ https://templatemo.com/tm-559-zay-shop
 
 
 
-    
+    <!-- item summary container-->
     <section class="bg-light">
-        <!-- item summary container-->
         <div class="container pb-5">
             <div class="row">
                 <div class="col-lg-5 mt-5">
-                    <div class="card mb-3">
-                        <img class="card-img img-fluid" 
-                        src="assets/img/uniform_main.jpg" 
-                        alt="Card image cap" 
-                        id="product-detail">
-                    </div>
                     <div class="row">
+                        <div class="card mb-3">
+                            <img class="card-img img-fluid" data-image="black" class="active" src="images/black.png" 
+                                alt="Card image cap" id="product-detail">
+                            
+                        </div>
+                        
                         <!--Start Controls-->
                         <div class="col-1 align-self-center">
                             <a href="#multi-item-example" role="button" data-bs-slide="prev">
@@ -240,6 +240,7 @@ https://templatemo.com/tm-559-zay-shop
                     <div class="card">
                         <div class="card-body">
                             <div class="card-body">
+                                <!-- Product Description-->
                                 <div class="product-description">
                                     <span>Uniforms</span>
                                     <h1>HT25 46</h1>
@@ -266,71 +267,146 @@ https://templatemo.com/tm-559-zay-shop
                                     </div>
                                     
                                 </div>
-
                                 
-                                
-                        
-                                <form action="" method="GET">
-                                    <input type="hidden" name="product-title" value="Activewear">
-                                    <div class="row">
-                                        <div class="product-color">
-                                            <span>Embriodery</span>
-                                            <div class="cable-choose">
-                                                
-                                              <button href="#layer1" class="btn-example">Custom Embriodery</button>
-                                              <button>Add Embriodery</button>
-                                              
-                                            </div>
-                                            <div id="layer1" class="pop-layer">
-                                                <div class="pop-container">
-                                                    <div class="pop-conts">
-                                                        <!--content //-->
-                                                        <p class="ctxt mb20">Thank you.<br>
-                                                            Your registration was submitted successfully.<br>
-                                                            Selected invitees will be notified by e-mail on JANUARY 24th.<br><br>
-                                                            Hope to see you soon!
-                                                        </p>
+                                <!-- Product Quantity -->
+                                <div class="product-color">
+                                    <span>Quantity</span>
+                                    <ul class="list-inline pb-3">
+                                        <li class="list-inline-item text-right">
                                             
-                                                        <div class="btn-r">
-                                                            <a href="#" class="btn-layerClose">Close</a>
+                                            <input type="hidden" name="product-quanity" id="product-quanity" value="1">
+                                        </li>
+                                        <li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
+                                        <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                                        <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="product-color">
+                                    <span>Embroidery</span>
+                                    <div class="cable-choose">
+                                        <button href="#layer1" class="btn-example">Custom Embroidery</button>
+                                    </div>
+
+                                    <!--embroidery popup screen-->
+                                    <div id="layer1" class="pop-layer">
+                                        <div class="pop-container">
+                                            <div class="pop-conts">
+                                                <p class="ctxt mb20">
+                                                    <div class="col-lg-5 mt-5">
+                                                        <div class="card">
+                                                            <img class="card-img img-fluid" 
+                                                            src="assets/img/uniform_main.jpg" 
+                                                            alt="Card image cap" 
+                                                            id="product-detail">
                                                         </div>
-                                                        <!--// content-->
+
                                                     </div>
+                                                    <div class="col-lg-7 mt-4">
+                                                        <div class="select-box">
+                                                            font style
+                                                            <label for="select-box1" class="label select-box1">
+                                                                <span class="label-desc"> 
+                                                                    <select id="select-box1" class="select">
+                                                                        <option value="Choice 1">Falkland Islands</option>
+                                                                        <option value="Choice 2">Germany</option>
+                                                                        <option value="Choice 3">Neverland</option>
+                                                                      </select>
+                                                                </span> 
+                                                                
+                                                            </label>
+                                                            
+                                                        </div>
+                                                        <div class="select-box">
+                                                            font style
+                                                            <label for="select-box1" class="label select-box1">
+                                                                <span class="label-desc"> 
+                                                                    <select id="select-box1" class="select">
+                                                                        <option value="Choice 1">Falkland Islands</option>
+                                                                        <option value="Choice 2">Germany</option>
+                                                                        <option value="Choice 3">Neverland</option>
+                                                                      </select>
+                                                                </span> 
+                                                                
+                                                            </label>
+                                                            
+                                                        </div>
+                                                        <div class="select-box">
+                                                            font style
+                                                            <label for="select-box1" class="label select-box1">
+                                                                <span class="label-desc"> 
+                                                                    <select id="select-box1" class="select">
+                                                                        <option value="Choice 1">Falkland Islands</option>
+                                                                        <option value="Choice 2">Germany</option>
+                                                                        <option value="Choice 3">Neverland</option>
+                                                                      </select>
+                                                                </span> 
+                                                                
+                                                            </label>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+
+
+                                                    <div class="row">
+                                                        <div class="cable-config">
+                                                            <div class="cable-choose">
+                                                              <button>   LEFT SIDE  </button>
+                                                              <button>  RIGHT SIDE  </button>
+                                                            </div>
+                                                            <div class="product-color"></div>
+                                                        </div>
+                                                        <span>upload logo</span> <input type="file" (change)="onFileChange($event)" ></a>
+                                                    </div>    
+                                                        
+                                                    <div class="row pb-3">
+                                                        <div class="product-price">
+                                                            <span>expected additional price : 148$</span>
+                                                            
+                                                          </div>
+                                                       
+                                                    </div>
+                                                </p>
+                                                
+                                                <div class="btn-r">
+                                                    <a href="#" class="btn-layerClose">Apply Embroidery</a>
+                                                    <a href="#" class="btn-layerClose">Close</a>
                                                 </div>
+                                                
+                                                
                                             </div>
-                                            <br/><br/>
-                                           
                                         </div>
-                                        
                                     </div>
-                                    <div class="row">
-                                        <div class="cable-config">
-                                            <span>Size</span>
-                                
-                                            <div class="cable-choose">
-                                              <button>XS</button>
-                                              <button>S</button>
-                                              <button>M</button>
-                                              <button>L</button>
-                                              <button>XL</button>
-                                              <button>XXL</button>
-                                            </div>
-                                            <div class="product-color"></div>
-                                
-                                           
+                                </div>
+                        
+                                <div class="row">
+                                    <div class="cable-config">
+                                        <span>Size</span>
+                            
+                                        <div class="cable-choose">
+                                          <button>XS</button>
+                                          <button>S</button>
+                                          <button>M</button>
+                                          <button>L</button>
+                                          <button>XL</button>
+                                          <button>XXL</button>
                                         </div>
-                                        
-                                    </div>
-                                    
-                                    <div class="row pb-3">
-                                        <div class="product-price">
-                                            <span>148$</span>
-                                            <a href="shop.html" class="cart-btn">Go to order</a>
-                                          </div>
+                                        <div class="product-color"></div>
+                            
                                        
                                     </div>
-                                </form>
+                                    
+                                </div>
                                 
+                                <div class="row pb-3">
+                                    <div class="product-price">
+                                        <span>148$</span>
+                                        <a href="shop.html" class="cart-btn">Add to cart</a>
+                                      </div>
+                                   
+                                </div>
                                 
 
                             </div>
@@ -351,6 +427,7 @@ https://templatemo.com/tm-559-zay-shop
     </section>
     <!-- Close Content -->
 
+  
     <!-- under informations(하단 회사 정보) -->
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
@@ -452,10 +529,16 @@ https://templatemo.com/tm-559-zay-shop
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="assets/js/color-index.js" charset="utf-8"></script>
+
     <!-- End Script -->
 
     <!-- Start Slider Script -->
     <script src="assets/js/slick.min.js"></script>
+
+    <!-- Color Change Scripts -->
+    
 
     <script>
         $('#carousel-related-product').slick({
