@@ -14,7 +14,7 @@ app.get('/contact', function(request, response){ // home으로 들어오면, 여
     fs.readdir('./html', function(error, filelist){
       //var filteredId = path.parse(request.params.pageId).base; // queryData.id
       fs.readFile(`html/contact`, 'utf8', function(err, description){
-        var title = request.params.pageId; //queryData.id;       
+        var title = "Contact"; //queryData.id;       
         var html = template.HTML(title, `${description}`);
         response.send(html);
       });
