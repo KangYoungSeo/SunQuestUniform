@@ -1,6 +1,6 @@
 module.exports = {
     HTML:function(title, body){
-      return `
+      return `<!DOCTYPE html>
 <html lang="en">
 
 <head>
