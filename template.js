@@ -30,18 +30,18 @@ module.exports = {
     <!-- End timezone-master-css index.html fonts -->
     
 <!--CY_필요한 css파일 추가-->
-        <link rel="stylesheet" href="/assets/css/bootstrap.min2.css">
-        <link rel="stylesheet" href="/assets/css/owl.carousel.min2.css">
-        <link rel="stylesheet" href="/assets/css/flaticon.css">
-        <link rel="stylesheet" href="/assets/css/slicknav.css">
-        <link rel="stylesheet" href="/assets/css/animate.min.css">
-        <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/assets/css/themify-icons.css">
-        <link rel="stylesheet" href="/assets/css/slick2.css">
-        <link rel="stylesheet" href="/assets/css/nice-select2.css">
-        <link rel="stylesheet" href="/assets/css/style2.css">
-        <link rel="stylesheet" href="/assets/css/filebox.css">    
+        <link rel="stylesheet" href="/assets/css/bootstrap.min2.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/owl.carousel.min2.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/flaticon.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/slicknav.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/magnific-popup.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/themify-icons.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/slick2.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/nice-select2.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/style2.css" type="text/html" />
+        <link rel="stylesheet" href="/assets/css/filebox.css" type="text/html" />    
 <!--CY_end-->
 
     <!--ogani-master css Start-->
@@ -49,14 +49,14 @@ module.exports = {
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="/assets/ogani-master-css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/ogani-master-css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/ogani-master-css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="/assets/ogani-master-css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="/assets/ogani-master-css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/ogani-master-css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/ogani-master-css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/ogani-master-css/style.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/bootstrap.min.css" type="text/html" />
+    <link rel="stylesheet" href="/assets/ogani-master-css/font-awesome.min.css" type="text/html" />
+    <link rel="stylesheet" href="/assets/ogani-master-css/elegant-icons.css" type="text/html" />
+    <link rel="stylesheet" href="/assets/ogani-master-css/nice-select.css" type="text/html" />
+    <link rel="stylesheet" href="/assets/ogani-master-css/jquery-ui.min.css" type="text/html" />
+    <link rel="stylesheet" href="/assets/ogani-master-css/owl.carousel.min.css" type="text/html" />
+    <link rel="stylesheet" href="/assets/ogani-master-css/slicknav.min.css" type="text/html" />
+    <link rel="stylesheet" href="/assets/ogani-master-css/style.css" ttype="text/html" />
     <!--ogani-master css End-->
 
     <!--Prevent Spam CSS Start-->
