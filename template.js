@@ -126,7 +126,7 @@ https://templatemo.com/tm-559-zay-shop
                             <a class="nav-link" href="accessories.html">Accessories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Group Order</a>
+                            <a class="nav-link" href="contact">Group Order</a>
                         </li>
                     </ul>
                 </div>
@@ -284,7 +284,7 @@ https://templatemo.com/tm-559-zay-shop
 
     <!-- Start Script -->
     <script src="/assets/js/jquery-1.11.0.min.js"></script>
-    <script src="/assets/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/templatemo.js"></script>
     <script src="/assets/js/custom.js"></script>
@@ -293,7 +293,7 @@ https://templatemo.com/tm-559-zay-shop
     <!-- Contact Form Script Start-->
     <!--script data-cfasync="false" type="text/javascript"
 src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script-->
-    <script data-cfasync="false" type="text/javascript"src="/form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="/form-submission-handler.js"></script>
     <!-- Contact Form Script End-->
 </body>
 
