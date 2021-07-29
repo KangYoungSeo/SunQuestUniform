@@ -25,10 +25,10 @@ module.exports = {
         <link rel="stylesheet" href="/assets/css/magnific-popup.css">
         <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
         <link rel="stylesheet" href="/assets/css/themify-icons.css">
-        <link rel="stylesheet" href="assets/css/slick2.css">
-        <link rel="stylesheet" href="assets/css/nice-select2.css">
-        <link rel="stylesheet" href="assets/css/style2.css">
-        <link rel="stylesheet" href="assets/css/filebox.css">    
+        <link rel="stylesheet" href="/assets/css/slick2.css">
+        <link rel="stylesheet" href="/assets/css/nice-select2.css">
+        <link rel="stylesheet" href="/assets/css/style2.css">
+        <link rel="stylesheet" href="/assets/css/filebox.css">    
 <!--CY_end-->
 
     <!--ogani-master css Start-->
@@ -36,23 +36,23 @@ module.exports = {
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="assets/ogani-master-css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/style.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/ogani-master-css/style.css" type="text/css">
     <!--ogani-master css End-->
 
     <!--Prevent Spam CSS Start-->
-    <link rel="stylesheet" href="assets/css/contact-css.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/contact-css.css" type="text/css">
     <!--Prevent Spam CSS End-->
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
 
     <!-- Load map styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
@@ -270,11 +270,11 @@ https://templatemo.com/tm-559-zay-shop
     <!-- End Footer -->
 
     <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="/assets/js/jquery-1.11.0.min.js"></script>
+    <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/templatemo.js"></script>
+    <script src="/assets/js/custom.js"></script>
     <!-- End Script -->
 
     <!-- Contact Form Script Start-->
