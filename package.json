@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "pm2": "^5.1.0"
+    "pm2": "^5.1.0",
+    "sanitize-html": "^2.4.0"
   },
   "devDependencies": {
     "live-server": "^1.2.1"
