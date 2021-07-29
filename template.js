@@ -60,12 +60,12 @@ module.exports = {
     <!--ogani-master css End-->
 
     <!--Prevent Spam CSS Start-->
-    <link rel="stylesheet" href="/assets/css/contact-css.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/contact-css.css" type="text/html" />
     <!--Prevent Spam CSS End-->
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css" type="text/html" />
 
     <!-- Load map styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
@@ -293,7 +293,7 @@ https://templatemo.com/tm-559-zay-shop
     <!-- Contact Form Script Start-->
     <!--script data-cfasync="false" type="text/javascript"
 src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script-->
-    <script data-cfasync="false" type="text/javascript"src="form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript"src="/form-submission-handler.js"></script>
     <!-- Contact Form Script End-->
 </body>
 
