@@ -14,6 +14,20 @@ module.exports = {
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/templatemo.css">
     <link rel="stylesheet" href="/assets/css/custom.css">
+
+    <!-- Start timezone-master-css index.html fonts -->
+    <link rel="stylesheet" href="/assets/timezone-master-css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/flaticon.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/slicknav.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/animate.min.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/themify-icons.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/slick.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/nice-select.css">
+    <link rel="stylesheet" href="/assets/timezone-master-css/style.css">
+    <!-- End timezone-master-css index.html fonts -->
     
 <!--CY_필요한 css파일 추가-->
         <link rel="stylesheet" href="/assets/css/bootstrap.min2.css">
