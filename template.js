@@ -1,7 +1,6 @@
 module.exports = {
     HTML:function(title, body){
-      return `
-<!DOCTYPE html>
+      return `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -284,9 +283,7 @@ src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-
     <!-- Contact Form Script End-->
 </body>
 
-</html>
-
-      `;
+</html>`;
     }
   }
   
