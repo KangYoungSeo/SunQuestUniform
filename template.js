@@ -56,7 +56,7 @@ module.exports = {
     <link rel="stylesheet" href="/assets/ogani-master-css/jquery-ui.min.css" type="text/html" />
     <link rel="stylesheet" href="/assets/ogani-master-css/owl.carousel.min.css" type="text/html" />
     <link rel="stylesheet" href="/assets/ogani-master-css/slicknav.min.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/ogani-master-css/style.css" ttype="text/html" />
+    <link rel="stylesheet" href="/assets/ogani-master-css/style.css" type="text/html" />
     <!--ogani-master css End-->
 
     <!--Prevent Spam CSS Start-->
@@ -283,7 +283,7 @@ https://templatemo.com/tm-559-zay-shop
     <!-- End Footer -->
 
     <!-- Start Script -->
-    <script src="/assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/templatemo.js"></script>
