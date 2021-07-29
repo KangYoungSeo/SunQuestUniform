@@ -12,8 +12,8 @@ app.get('/contact', function(request, response){ // home으로 들어오면, 여
     // 현재 data 파일에 HTML이라는 파일 1개 있음. 
     // fs 모듈은 위에서 정의해야 함. 
     fs.readdir('./html', function(error, filelist){
-      var filteredId = path.parse(request.params.pageId).base; // queryData.id
-      fs.readFile(`html/${filteredId}`, 'utf8', function(err, description){
+      //var filteredId = path.parse(request.params.pageId).base; // queryData.id
+      fs.readFile(`html/contact`, 'utf8', function(err, description){
         var title = request.params.pageId; //queryData.id;       
         var html = template.HTML(title, `${description}`);
         response.send(html);
