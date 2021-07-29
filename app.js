@@ -4,12 +4,12 @@ const port = 3000
 var fs = require('fs'); 
 var http = require('http');
 var static = require('serve-static');
-var template = require('./lib/template.js');
+var template = require('template.js');
 var path = require('path');
 var sanitizeHtml = require('sanitize-html');
 var qs = require('querystring');
 
-app.use('contact.html', static(path.join(__dirname,'assets')));
+app.use('/', static(path.join(__dirname,'assets')));
 //app.use('/contact', static(path.join(__dirname,'assets')));
 
 app.get('/', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
