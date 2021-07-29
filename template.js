@@ -3,11 +3,13 @@ module.exports = {
       return `<!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head profile="http://www.w3.org/2005/10/profile">
     <title>CLOVER - ${title}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
+    
     <link rel="apple-touch-icon" href="/assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
 
