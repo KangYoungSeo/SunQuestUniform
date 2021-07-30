@@ -37,6 +37,7 @@ app.get('/womens', function(request, response){
   var html, cat, cri, prod;
     fs.readFile(`html/category`, 'utf8', function(err, description){     
       cat = `${description}`;
+      console.log(cat);
     });
     fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
       cri = `${description}`;
@@ -45,6 +46,7 @@ app.get('/womens', function(request, response){
       prod = `${description}`;
     });
     var prodMenu = template.productMenu(cat, cri, prod);
+    console.log(prodMenu);
     html = template.HTML(title, prodMenu);
     response.send(html);
 });
