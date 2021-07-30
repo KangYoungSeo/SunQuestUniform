@@ -13,7 +13,7 @@ var qs = require('querystring');
 app.use(express.static('assets'));
 //app.use('/contact', static(path.join(__dirname,'assets')));
 
-app.use(bodyParser.urlencoded({ extended: false })); 
+//app.use(bodyParser.urlencoded({ extended: false })); 
 
 app.get('/', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
   //return res.send('Hello World!')
