@@ -32,16 +32,18 @@ module.exports = {
 <!--CY_필요한 css파일 추가-->
     <link rel="stylesheet" href="/css/bootstrap.min2.css" />
     <link rel="stylesheet" href="/css/owl.carousel.min2.css" />
-    <link rel="stylesheet" href="/css/flaticon.css" />
+    
+    <link rel="stylesheet" href="/css/nice-select2.css" />
+    <link rel="stylesheet" href="/css/style2.css" />
+    <link rel="stylesheet" href="/css/filebox.css" />    
+    
+    <!--link rel="stylesheet" href="/css/flaticon.css" />
     <link rel="stylesheet" href="/css/slicknav.css" />
     <link rel="stylesheet" href="/css/animate.min.css" />
     <link rel="stylesheet" href="/css/magnific-popup.css" />
     <link rel="stylesheet" href="/css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="/css/themify-icons.css" />
-    <link rel="stylesheet" href="/css/slick2.css" />
-    <link rel="stylesheet" href="/css/nice-select2.css" />
-    <link rel="stylesheet" href="/css/style2.css" />
-    <link rel="stylesheet" href="/css/filebox.css" />    
+    <link rel="stylesheet" href="/css/slick2.css" /-->
 <!--CY_end-->
 
     <!--ogani-master css Start-->
