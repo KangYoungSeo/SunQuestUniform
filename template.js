@@ -11,9 +11,9 @@ module.exports = {
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/html" />
-    <link rel="stylesheet" href="/css/templatemo.css" type="text/html" />
-    <link rel="stylesheet" href="/css/custom.css" type="text/html" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css"  />
+    <link rel="stylesheet" href="/css/templatemo.css"  />
+    <link rel="stylesheet" href="/css/custom.css"  />
 
     <!-- Start timezone-master-css index.html fonts -->
     <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" type="text/html" />
@@ -54,9 +54,9 @@ module.exports = {
     <link rel="stylesheet" href="/ogani-master-css/elegant-icons.css" type="text/html" />
     <link rel="stylesheet" href="/ogani-master-css/nice-select.css" type="text/html" />
     <link rel="stylesheet" href="/ogani-master-css/jquery-ui.min.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/ogani-master-css/owl.carousel.min.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/ogani-master-css/slicknav.min.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/ogani-master-css/style.css" type="text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/owl.carousel.min.css" type="text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/slicknav.min.css" type="text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/style.css" type="text/html" />
     <!--ogani-master css End-->
 
     <!--Prevent Spam CSS Start-->
