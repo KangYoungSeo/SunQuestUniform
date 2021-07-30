@@ -283,17 +283,17 @@ https://templatemo.com/tm-559-zay-shop
     <!-- End Footer -->
 
     <!-- Start Script -->
-    <script src="/assets/js/jquery-1.11.0.min.js"></script>
-    <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/templatemo.js"></script>
-    <script src="/assets/js/custom.js"></script>
+    <script src="/js/jquery-1.11.0.min.js"></script>
+    <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/templatemo.js"></script>
+    <script src="/js/custom.js"></script>
     <!-- End Script -->
 
     <!-- Contact Form Script Start-->
     <!--script data-cfasync="false" type="text/javascript"
 src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script-->
-    <script data-cfasync="false" type="text/javascript" src="./form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
     <!-- Contact Form Script End-->
 </body>
 

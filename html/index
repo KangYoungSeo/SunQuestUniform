@@ -10,7 +10,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="">
+                            <img class="img-fluid" src="/img/banner_img_01.jpg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
@@ -32,7 +32,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
+                            <img class="img-fluid" src="/img/banner_img_02.jpg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
@@ -51,7 +51,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_03.jpg" alt="">
+                            <img class="img-fluid" src="/img/banner_img_03.jpg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
@@ -182,7 +182,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-popular-items mb-50 text-center">
                         <div class="popular-img">
-                            <img src="assets/img/gallery/popular1.png" alt="">
+                            <img src="/img/gallery/popular1.png" alt="">
                             <div class="img-cap">
                                 <span>Add to cart</span>
                             </div>
@@ -199,7 +199,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-popular-items mb-50 text-center">
                         <div class="popular-img">
-                            <img src="assets/img/gallery/popular2.png" alt="">
+                            <img src="/img/gallery/popular2.png" alt="">
                             <div class="img-cap">
                                 <span>Add to cart</span>
                             </div>
@@ -216,7 +216,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-popular-items mb-50 text-center">
                         <div class="popular-img">
-                            <img src="assets/img/gallery/popular3.png" alt="">
+                            <img src="/img/gallery/popular3.png" alt="">
                             <div class="img-cap">
                                 <span>Add to cart</span>
                             </div>
@@ -233,7 +233,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-popular-items mb-50 text-center">
                         <div class="popular-img">
-                            <img src="assets/img/gallery/popular4.png" alt="">
+                            <img src="/img/gallery/popular4.png" alt="">
                             <div class="img-cap">
                                 <span>Add to cart</span>
                             </div>
@@ -250,7 +250,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-popular-items mb-50 text-center">
                         <div class="popular-img">
-                            <img src="assets/img/gallery/popular5.png" alt="">
+                            <img src="/img/gallery/popular5.png" alt="">
                             <div class="img-cap">
                                 <span>Add to cart</span>
                             </div>
@@ -267,7 +267,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-popular-items mb-50 text-center">
                         <div class="popular-img">
-                            <img src="assets/img/gallery/popular6.png" alt="">
+                            <img src="/img/gallery/popular6.png" alt="">
                             <div class="img-cap">
                                 <span>Add to cart</span>
                             </div>
