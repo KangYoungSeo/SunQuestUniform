@@ -24,9 +24,9 @@ module.exports = {
     <link rel="stylesheet" href="/assets/timezone-master-css/magnific-popup.css" type="text/html" />
     <link rel="stylesheet" href="/assets/timezone-master-css/fontawesome-all.min.css" type="text/html" />
     <link rel="stylesheet" href="/assets/timezone-master-css/themify-icons.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/slick.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/nice-select.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/style.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/slick.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/nice-select.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/style.css" type="text/html" />
     <!-- End timezone-master-css index.html fonts -->
     
 <!--CY_필요한 css파일 추가-->
