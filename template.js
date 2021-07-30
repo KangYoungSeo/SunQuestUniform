@@ -8,21 +8,21 @@ module.exports = {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="/assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/html" />
     <link rel="stylesheet" href="/assets/css/templatemo.css" type="text/html" />
     <link rel="stylesheet" href="/assets/css/custom.css" type="text/html" />
 
     <!-- Start timezone-master-css index.html fonts -->
-    <link rel="stylesheet" href="/assets/timezone-master-css/bootstrap.min.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/owl.carousel.min.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/flaticon.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/slicknav.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/animate.min.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/magnific-popup.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/fontawesome-all.min.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/flaticon.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/slicknav.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/animate.min.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/magnific-popup.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/fontawesome-all.min.css" type="text/html" />
     <link rel="stylesheet" href="/timezone-master-css/themify-icons.css" type="text/html" />
     <link rel="stylesheet" href="/timezone-master-css/slick.css" type="text/html" />
     <link rel="stylesheet" href="/timezone-master-css/nice-select.css" type="text/html" />
