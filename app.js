@@ -13,6 +13,8 @@ var qs = require('querystring');
 app.use(express.static('assets'));
 //app.use('/contact', static(path.join(__dirname,'assets')));
 
+app.use(bodyParser.urlencoded({ extended: false })); 
+
 app.get('/', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
   //return res.send('Hello World!')
   // readdir은, data 디렉토리에 있는 파일들을 갖고 와서, 그것을 이용해서 파일을 구성. 
@@ -28,7 +30,6 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
   //});
 });
 
-app.use(express.static('assets'));
 
 app.get('/contact', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
     //return res.send('Hello World!')

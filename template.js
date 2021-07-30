@@ -18,8 +18,8 @@ module.exports = {
     <!-- Start timezone-master-css index.html fonts -->
     <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" />
     <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="timezone-master-css/flaticon.css" />
-    <link rel="stylesheet" href="timezone-master-css/slicknav.css" />
+    <link rel="stylesheet" href="/timezone-master-css/flaticon.css" />
+    <link rel="stylesheet" href="/timezone-master-css/slicknav.css" />
     <link rel="stylesheet" href="/timezone-master-css/animate.min.css" />
     <link rel="stylesheet" href="/timezone-master-css/magnific-popup.css" />
     <link rel="stylesheet" href="/timezone-master-css/fontawesome-all.min.css" />
