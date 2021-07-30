@@ -44,8 +44,9 @@ app.get('/contact', function(request, response){ // home으로 들어오면, 여
       fs.readFile(`html/contact`, 'utf8', function(err, description){
         var title = "Contact"; //queryData.id;       
         var html = template.HTML(title, `${description}`);
-        console.log(html);
-        response.send(html);
+        //console.log(html);
+        //response.send(html);
+        response.render(html);
       });
     });
   });
