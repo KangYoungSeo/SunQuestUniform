@@ -51,10 +51,10 @@ app.get('/womens', function(request, response){
     response.send(html);
 });
 
-app.get('/contact', function(request, response){
+/*app.get('/contact', function(request, response){
   response.render("contact.html");
-});
-/*app.get('/contact', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
+});*/
+app.get('/contact', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
     //return res.send('Hello World!')
     // readdir은, data 디렉토리에 있는 파일들을 갖고 와서, 그것을 이용해서 파일을 구성. 
     // 현재 data 파일에 HTML이라는 파일 1개 있음.  
@@ -69,6 +69,6 @@ app.get('/contact', function(request, response){
       });
     });
     response.render(html);
-  });*/
+  });
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
