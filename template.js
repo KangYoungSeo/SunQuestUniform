@@ -23,7 +23,7 @@ module.exports = {
     <link rel="stylesheet" href="/assets/timezone-master-css/animate.min.css" type="text/html" />
     <link rel="stylesheet" href="/assets/timezone-master-css/magnific-popup.css" type="text/html" />
     <link rel="stylesheet" href="/assets/timezone-master-css/fontawesome-all.min.css" type="text/html" />
-    <link rel="stylesheet" href="/assets/timezone-master-css/themify-icons.css" type="text/html" />
+    <link rel="stylesheet" href="/timezone-master-css/themify-icons.css" type="text/html" />
     <link rel="stylesheet" href="/timezone-master-css/slick.css" type="text/html" />
     <link rel="stylesheet" href="/timezone-master-css/nice-select.css" type="text/html" />
     <link rel="stylesheet" href="/timezone-master-css/style.css" type="text/html" />
@@ -293,7 +293,7 @@ https://templatemo.com/tm-559-zay-shop
     <!-- Contact Form Script Start-->
     <!--script data-cfasync="false" type="text/javascript"
 src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script-->
-    <script data-cfasync="false" type="text/javascript" src="/form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="./form-submission-handler.js"></script>
     <!-- Contact Form Script End-->
 </body>
 
