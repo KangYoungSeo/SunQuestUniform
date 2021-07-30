@@ -32,6 +32,23 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
   //});
 });
 
+app.get('/womens', function(request, response){   
+  var title = "Womens";
+  var html, cat, cri, prod;
+    fs.readFile(`html/category`, 'utf8', function(err, description){     
+      cat = `${description}`;
+    });
+    fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
+      cri = `${description}`;
+    });
+    fs.readFile(`html/product-list`, 'utf8', function(err, description){     
+      prod = `${description}`;
+    });
+    var prodMenu = template.productMenu(cat, cri, prod);
+    html = template.HTML(title, prodMenu);
+    response.send(html);
+});
+
 app.get('/contact', function(request, response){
   response.render("contact.html");
 });
@@ -51,4 +68,5 @@ app.get('/contact', function(request, response){
     });
     response.render(html);
   });*/
+
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))

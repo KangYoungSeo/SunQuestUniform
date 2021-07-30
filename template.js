@@ -119,13 +119,13 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="womens-scrubs.html">Womens</a>
+                            <a class="nav-link" href="/womens">Womens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mens-scrubs.html">Mens</a>
+                            <a class="nav-link" href="/mens">Mens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="accessories.html">Accessories</a>
+                            <a class="nav-link" href="/accessories">Accessories</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contact">Group Order</a>
@@ -300,6 +300,95 @@ src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-
 </body>
 
 </html>`;
+    },
+    productMenu:function(category, criteria, productList){
+        return `
+        <!-- Product Shop Section Begin -->
+    <section class="product-shop spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-8 order-2 order-lg-1 produts-sidebar-filter">
+                    ${category}
+                    ${criteria}
+                    
+                    <div class="filter-widget">
+                        <h4 class="fw-title">Color</h4>
+                        <div class="fw-color-choose">
+                            <div class="cs-item">
+                                <input type="radio" id="cs-black">
+                                <label class="cs-black" for="cs-black">Black</label>
+                            </div>
+                            <div class="cs-item">
+                                <input type="radio" id="cs-violet">
+                                <label class="cs-violet" for="cs-violet">Violet</label>
+                            </div>
+                            <div class="cs-item">
+                                <input type="radio" id="cs-blue">
+                                <label class="cs-blue" for="cs-blue">Blue</label>
+                            </div>
+                            <div class="cs-item">
+                                <input type="radio" id="cs-yellow">
+                                <label class="cs-yellow" for="cs-yellow">Yellow</label>
+                            </div>
+                            <div class="cs-item">
+                                <input type="radio" id="cs-red">
+                                <label class="cs-red" for="cs-red">Red</label>
+                            </div>
+                            <div class="cs-item">
+                                <input type="radio" id="cs-green">
+                                <label class="cs-green" for="cs-green">Green</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-9 order-1 order-lg-2">
+                    <div class="product-show-option">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7">
+                                <div class="select-option">
+                                    <select class="sorting">
+                                        <option value="Descending">Order: Descending</option>
+                                        <option value="Ascending">Order: Ascending</option>
+                                        <option value="Popularity">Order: Popularity</option>
+                                    </select>
+                                    <select class="p-show">
+                                        <option value="">Show: 9 </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!--div class="col-lg-5 col-md-5 text-right">
+                                <p>Show 01- 09 Of 36 Product</p>
+                            </div-->
+                        </div>
+                    </div>
+                    ${productList}
+                    <div class="loading-more">
+                        <div class="btn-toolbar justify-content-center pb-4" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group me-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-secondary text-white">Previous</button>
+                            </div>
+                            <div class="btn-group me-2" role="group" aria-label="Second group">
+                                <button type="button" class="btn btn-light">1</button>
+                            </div>
+                            <div class="btn-group me-2" role="group" aria-label="Second group">
+                                <button type="button" class="btn btn-secondary text-white">2</button>
+                            </div>
+                            <div class="btn-group" role="group" aria-label="Third group">
+                                <button type="button" class="btn btn-secondary text-white">Next</button>
+                            </div>
+                        </div>
+                        <!--i class="icon_loading"></i>
+                        <a href="#">
+                            Loading More
+                        </a-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Shop Section End -->
+        `
     }
   }
   
