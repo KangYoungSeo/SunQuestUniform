@@ -126,7 +126,7 @@ https://templatemo.com/tm-559-zay-shop
                             <a class="nav-link" href="accessories.html">Accessories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact">Group Order</a>
+                            <a class="nav-link" href="/contact">Group Order</a>
                         </li>
                     </ul>
                 </div>
@@ -218,7 +218,7 @@ https://templatemo.com/tm-559-zay-shop
                         <li><a class="text-decoration-none" href="#">Lab Coats</a></li>
                         <li><a class="text-decoration-none" href="#">Under Scrubs</a></li>
                         <li><a class="text-decoration-none" href="#">Patient Gown</a></li>
-                        <li><a class="text-decoration-none" href="#">Group Order</a></li>
+                        <li><a class="text-decoration-none" href="/contact">Group Order</a></li>
                         <li><a class="text-decoration-none" href="#">Accessories</a></li>                        
                     </ul>
                 </div>
@@ -226,11 +226,11 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">More Info</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
+                        <li><a class="text-decoration-none" href="/">Home</a></li>
                         <li><a class="text-decoration-none" href="#">About Us</a></li>
                         <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
                         <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Contact</a></li>
+                        <li><a class="text-decoration-none" href="/contact">Contact</a></li>
                     </ul>
                 </div>
 
@@ -293,7 +293,7 @@ https://templatemo.com/tm-559-zay-shop
     <!-- Contact Form Script Start-->
     <!--script data-cfasync="false" type="text/javascript"
 src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script-->
-    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="/js/form-submission-handler.js"></script>
     <!-- Contact Form Script End-->
 </body>
 
