@@ -16,7 +16,7 @@ module.exports = {
     <link rel="stylesheet" href="/css/custom.css" />
 
     <!-- Start timezone-master-css index.html fonts -->
-    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/timezone-master-css/bootstrap.min.css" />
     <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" />
     <link rel="stylesheet" href="/timezone-master-css/flaticon.css" />
     <link rel="stylesheet" href="/timezone-master-css/slicknav.css" />

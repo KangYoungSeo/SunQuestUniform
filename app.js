@@ -12,7 +12,7 @@ var bodyParser = require('body-parser');
 
 
 //app.use('/', static(path.join(__dirname,'assets')));
-//app.use(express.static('assets'));
+app.use(express.static('assets'));
 //app.use('/contact', static(path.join(__dirname,'assets')));
 
 app.use(bodyParser.urlencoded({extend : false}));
