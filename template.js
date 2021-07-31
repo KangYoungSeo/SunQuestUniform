@@ -5,11 +5,11 @@ module.exports = {
 
 <head>
     <title>CLOVER - ${title}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="apple-touch-icon" href="/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/templatemo.css" />
@@ -48,7 +48,7 @@ module.exports = {
 
     <!--ogani-master css Start-->
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet" />
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="/ogani-master-css/bootstrap.min.css" />
@@ -66,7 +66,7 @@ module.exports = {
     <!--Prevent Spam CSS End-->
 
     <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" />
     <link rel="stylesheet" href="/css/fontawesome.min.css" />
 
     <!-- Load map styles -->
