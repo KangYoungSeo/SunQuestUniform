@@ -60,7 +60,7 @@ app.get('/womens', function(request, response){
 app.get('/contact', function(request, response){
   response.render("contact.ejs");
 });
-app.get('/thankyou', function(request, response){
+app.post('/thankyou', function(request, response){
   doPost(request);
   fs.readFile(`html/thankyou`, 'utf8', function(err, description){
     var title = "Contact"; //queryData.id;       
