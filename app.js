@@ -12,7 +12,7 @@ var bodyParser = require('body-parser');
 var ejs = require('ejs'); // html 랜더링
 
 //app.use(static(path.join(__dirname,'../assets')));  // ejs 불가능 
-app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
+//app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
 //app.use('/contact', static(path.join(__dirname,'assets'))); // ejs 불가능 
 //app.use('/', express.static('assets')); // ejs 가능 
 app.use(express.static('assets')); // ejs 가능
