@@ -15,6 +15,7 @@ var ejs = require('ejs'); // html 랜더링
 app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
 //app.use('/contact', static(path.join(__dirname,'assets'))); // ejs 불가능 
 //app.use('/', express.static('assets')); // ejs 가능 
+app.use(express.static('assets'));
 
 app.set("views", __dirname); // ejs 파일 가져올 폴더 지정(프로젝트명) 및 ejs 관련 설정
 app.set("view engine", "ejs");
