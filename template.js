@@ -8,48 +8,45 @@ module.exports = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="apple-touch-icon" type="image/x-icon" href="/img/apple-icon.png" />
+    link rel="apple-touch-icon" href="/img/apple-icon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
-
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/css/templatemo.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/css/custom.css" type = "Content-Type: text/css"/>
-
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/templatemo.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
     <!-- Start timezone-master-css index.html fonts -->
-    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/flaticon.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/slicknav.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/animate.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/magnific-popup.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/fontawesome-all.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/themify-icons.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/slick.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/nice-select.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/timezone-master-css/style.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/timezone-master-css/flaticon.css" />
+    <link rel="stylesheet" href="/timezone-master-css/slicknav.css" />
+    <link rel="stylesheet" href="/timezone-master-css/animate.min.css" />
+    <link rel="stylesheet" href="/timezone-master-css/magnific-popup.css" />
+    <link rel="stylesheet" href="/timezone-master-css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="/timezone-master-css/themify-icons.css" />
+    <link rel="stylesheet" href="/timezone-master-css/slick.css" />
+    <link rel="stylesheet" href="/timezone-master-css/nice-select.css" />
+    <link rel="stylesheet" href="/timezone-master-css/style.css" />
     <!-- End timezone-master-css index.html fonts -->
-
+    
     <!--ogani-master css Start-->
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet" />
-
     <!-- Css Styles -->
-    <link rel="stylesheet" href="/ogani-master-css/bootstrap.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/ogani-master-css/font-awesome.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/ogani-master-css/elegant-icons.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/ogani-master-css/nice-select.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/ogani-master-css/jquery-ui.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/ogani-master-css/owl.carousel.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/ogani-master-css/slicknav.min.css" type = "Content-Type: text/css"/>
-    <link rel="stylesheet" href="/ogani-master-css/style.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/ogani-master-css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/ogani-master-css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/ogani-master-css/elegant-icons.css" />
+    <link rel="stylesheet" href="/ogani-master-css/nice-select.css" />
+    <link rel="stylesheet" href="/ogani-master-css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="/ogani-master-css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/ogani-master-css/slicknav.min.css" />
+    <link rel="stylesheet" href="/ogani-master-css/style.css" />
     <!--ogani-master css End-->
-
+    
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" />
-    <link rel="stylesheet" href="/css/fontawesome.min.css" type = "Content-Type: text/css"/>
-
+    <link rel="stylesheet" href="/css/fontawesome.min.css" />
     <!-- Load map styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    
 <!--
     
 TemplateMo 559 Zay Shop
@@ -264,11 +261,20 @@ https://templatemo.com/tm-559-zay-shop
     <!-- End Footer -->
 
     <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js" type="application/js"></script>
+    <!--script src="assets/js/jquery-1.11.0.min.js" type="application/js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js" type="application/js"></script>
     <script src="assets/js/bootstrap.bundle.min.js" type="application/js"></script>
     <script src="assets/js/templatemo.js" type="application/js"></script>
-    <script src="assets/js/custom.js" type="application/js"></script>
+    <script src="assets/js/custom.js" type="application/js"></script-->
+
+    <!-- Start Script -->
+    <script src="/js/jquery-1.11.0.min.js"></script>
+    <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/templatemo.js"></script>
+    <script src="/js/custom.js"></script>
+    <!-- End Script -->
+
     <!-- End Script -->
 </body>
 
