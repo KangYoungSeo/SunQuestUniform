@@ -1,0 +1,66 @@
+<!-- Start Content Page -->
+    <div class="container-fluid bg-light py-5">
+        <div class="col-md-6 m-auto text-center">
+            <h1 class="h1">Group order / Whole sales order</h1>
+            <p>
+                Please contact us with below info.
+            </p>
+        </div>
+    </div>
+
+    <!--? Group Order  Start-->
+    <div class="watch-area section-padding30">
+        <div class="container">
+            <div class="row align-items-center justify-content-between padding-130">
+                <div class="col-lg-5 col-md-6">
+                    <div class="watch-details mb-40">
+                        <h1>Group Order</h1>
+                        <b>Production Minimun</b>
+                        <p>
+                            <li>+100pcs</li>
+                            <li>+300pcs</li>
+                            <li>+500pcs</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-10">
+                    <div class="choice-watch-img mb-40">
+                        <img src="/img/gallery/choce_watch1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Group Order From Image -->
+    
+    <div class="contact-form spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="contact__form__title">
+                            <h2>Group Order Form</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                    
+                     <!-- Customise the Thankyou Message People See when they submit the form: -->
+                    
+                        <h2>Thanks! <br>
+                            We will get back to you soon!</h2>
+                        <a href = "/contact">Go back to Group Order</a>
+                    
+                
+            </div>
+        </div>
+
+
+
+
+<br>
+<br>
+<br>
+        
+    </div>

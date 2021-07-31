@@ -10,6 +10,7 @@ var sanitizeHtml = require('sanitize-html');
 var qs = require('querystring');
 var bodyParser = require('body-parser');
 var ejs = require('ejs'); // html 랜더링
+var googleScriptEmail = require('./assets/js/google-script-just-email.js');
 
 //app.use(static(path.join(__dirname,'../assets')));  // ejs 불가능 
 //app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
@@ -59,7 +60,13 @@ app.get('/womens', function(request, response){
 app.get('/contact', function(request, response){
   response.render("contact.ejs");
 });
-
+app.get('/thankyou', function(request, response){
+  fs.readFile(`html/thankyou`, 'utf8', function(err, description){
+    var title = "Contact"; //queryData.id;       
+    var html = template.HTML(title, `${description}`);
+    response.send(html);
+  });
+});
 /*
 app.get('/contact', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
     //return res.send('Hello World!')
