@@ -299,7 +299,8 @@ src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-
     <!-- Contact Form Script End-->
 </body>
 
-</html>`;
+</html>
+`;
     },
     productMenu:function(category, criteria, productList){
         return `
