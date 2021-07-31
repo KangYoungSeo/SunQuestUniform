@@ -16,17 +16,17 @@ module.exports = {
     <link rel="stylesheet" href="/css/custom.css" />
 
     <!-- Start timezone-master-css index.html fonts -->
-    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="/timezone-master-css/flaticon.css" />
-    <link rel="stylesheet" href="/timezone-master-css/slicknav.css" />
-    <link rel="stylesheet" href="/timezone-master-css/animate.min.css" />
-    <link rel="stylesheet" href="/timezone-master-css/magnific-popup.css" />
-    <link rel="stylesheet" href="/timezone-master-css/fontawesome-all.min.css" />
-    <link rel="stylesheet" href="/timezone-master-css/themify-icons.css" />
-    <link rel="stylesheet" href="/timezone-master-css/slick.css" />
-    <link rel="stylesheet" href="/timezone-master-css/nice-select.css" />
-    <link rel="stylesheet" href="/timezone-master-css/style.css" />
+    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/flaticon.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/slicknav.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/animate.min.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/magnific-popup.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/fontawesome-all.min.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/themify-icons.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/slick.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/nice-select.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/style.css" type = "Content-Type: text/css"/>
     <!-- End timezone-master-css index.html fonts -->
 
     <!--ogani-master css Start-->
@@ -44,13 +44,9 @@ module.exports = {
     <link rel="stylesheet" href="/ogani-master-css/style.css" />
     <!--ogani-master css End-->
 
-    <!--Prevent Spam CSS Start-->
-    <link rel="stylesheet" href="/css/contact-css.css" />
-    <!--Prevent Spam CSS End-->
-
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" />
-    <link rel="stylesheet" href="/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/css/fontawesome.min.css" type = "Content-Type: text/css"/>
 
     <!-- Load map styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
