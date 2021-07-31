@@ -58,6 +58,7 @@ app.get('/womens', function(request, response){
 app.get('/contact', function(request, response){
   response.render("contact.ejs");
 });
+
 /*
 app.get('/contact', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
     //return res.send('Hello World!')
