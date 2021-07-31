@@ -46,7 +46,7 @@
                 <!--form action="#"-->
                 <form class="gform" method="POST" 
                 data-email="squniform@gmail.com" 
-                >
+                action = "https://script.google.com/macros/s/AKfycbxqA_FmsMRbFtacHPTfYXVONP0olhtfEMMSU46mvl9DB_ayB_5EuJvPouV4vMaG_WYqPw/exec" >
                     <input type="hidden" name="subject" value="A new group order has arrive!" />
                     <div class="row form-elements">
                         <!--First Name / Last Name-->
