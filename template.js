@@ -37,13 +37,13 @@ module.exports = {
     <link rel="stylesheet" href="/css/style2.css" />
     <link rel="stylesheet" href="/css/filebox.css" />    
     
-    <!--link rel="stylesheet" href="/css/flaticon.css" />
+    <link rel="stylesheet" href="/css/flaticon.css" />
     <link rel="stylesheet" href="/css/slicknav.css" />
     <link rel="stylesheet" href="/css/animate.min.css" />
     <link rel="stylesheet" href="/css/magnific-popup.css" />
     <link rel="stylesheet" href="/css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="/css/themify-icons.css" />
-    <link rel="stylesheet" href="/css/slick2.css" /-->
+    <link rel="stylesheet" href="/css/slick2.css" />
 <!--CY_end-->
 
     <!--ogani-master css Start-->

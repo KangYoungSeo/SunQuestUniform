@@ -99,13 +99,7 @@
                         <div class="col-lg-12 col-md-12">
                             <input type="text" placeholder="How many sets you need" id = "set" name= "set" value required>
                         </div>
-                        
-                        <!--div class="filebox">
-                            <label for="ex_file">Embroidery - Logo(upload design)</label>
-                            <input type="file" id="ex_file">
-                        </div-->
-                        
-                        <!--h4><br></h4-->
+
                         <div class="col-lg-12 col-md-12">
                             <input type="text" placeholder="Embroidery - Text Line 1" id = "em-txt1" name = "em-txt1" value required>
                         </div>
