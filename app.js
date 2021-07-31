@@ -59,13 +59,20 @@ app.get('/womens', function(request, response){
 app.get('/contact', function(request, response){
   response.render("contact.ejs");
 });
-app.post('/thankyou', function(request, response){
+
+app.post('/sendMail', function(request, response){
   doPost(request);
+});
+app.post('/thankyou', function(request, response){
+  //doPost(request);
   fs.readFile(`html/thankyou`, 'utf8', function(err, description){
     var title = "Contact"; //queryData.id;       
     var html = template.HTML(title, `${description}`);
     response.send(html);
   });
+});
+app.post('https://script.google.com/macros/s/AKfycbylR4oEMC1a4lPkGHy5-JLGhe9-6aKFqmpYosNih3dowMHoKW2tkGSZpQsoUKIzP_Ii/exec', function(req, res){
+  res.redirect('/thankyou');
 });
 /*
 app.get('/contact', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
