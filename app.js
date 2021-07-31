@@ -63,7 +63,7 @@ app.get('/contact', function(request, response){
 
 app.post('/sendMail', function(request, response, next){
   doPost(request);
-  next();
+  //next();
 });
 app.post('/thankyou', function(request, response){
   //doPost(request);
