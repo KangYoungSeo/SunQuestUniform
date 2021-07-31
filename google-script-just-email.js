@@ -103,18 +103,17 @@ function doPost(e) {
     // return json success results
     */
     
-    /*return ContentService    // return json success results
+    return ContentService    // return json success results
           .createTextOutput(
             JSON.stringify({"result":"success",
                             "data": JSON.stringify(e.parameters) }))
-          .setMimeType(ContentService.MimeType.JSON);*/
-   return ContentService.TO_ADDRESS('/thankyou');
+          .setMimeType(ContentService.MimeType.JSON);
+    
   } catch(error) { // if error return this
     Logger.log(error);
     return ContentService
           .createTextOutput(JSON.stringify({"result":"error", "error": error}))
           .setMimeType(ContentService.MimeType.JSON);
-          
   }
 }
 
