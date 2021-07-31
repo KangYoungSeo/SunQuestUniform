@@ -8,11 +8,12 @@ module.exports = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    link rel="apple-touch-icon" href="/img/apple-icon.png" />
+    <link rel="apple-touch-icon" href="/img/apple-icon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/templatemo.css" />
     <link rel="stylesheet" href="/css/custom.css" />
+
     <!-- Start timezone-master-css index.html fonts -->
     <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" />
     <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" />
@@ -26,10 +27,11 @@ module.exports = {
     <link rel="stylesheet" href="/timezone-master-css/nice-select.css" />
     <link rel="stylesheet" href="/timezone-master-css/style.css" />
     <!-- End timezone-master-css index.html fonts -->
-    
+
     <!--ogani-master css Start-->
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet" />
+    
     <!-- Css Styles -->
     <link rel="stylesheet" href="/ogani-master-css/bootstrap.min.css" />
     <link rel="stylesheet" href="/ogani-master-css/font-awesome.min.css" />
