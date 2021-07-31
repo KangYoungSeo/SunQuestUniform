@@ -43,7 +43,7 @@ app.get('/womens', function(request, response){
   });
   fs.readFile(`html/productList`, 'utf8', function(err, description){     
     prod = `${description}`;
-    console.log(cat);
+    console.log(prod);
   });
   var prodMenu = template.productMenu(cat, cri, prod);
   console.log(prodMenu);
@@ -63,12 +63,12 @@ app.get('/contact', function(request, response){ // home으로 들어오면, 여
       fs.readFile(`html/contact`, 'utf8', function(err, description){
         var title = "Contact";        
         var html = template.HTML(title, `${description}`);
-        console.log(html);
-        //response.send(html);
+        console.log(`${description}`);
+        response.send(html);
         //response.render(html);
       });
     //});
-    response.render(html);
+    //response.render(html);
   });
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
