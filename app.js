@@ -35,20 +35,20 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
 app.get('/womens', function(request, response){   
   var title = "Womens";
   var html, cat, cri, prod;
-    fs.readFile(`html/category`, 'utf8', function(err, description){     
-      cat = `${description}`;
-      console.log(cat);
-    });
-    fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
-      cri = `${description}`;
-    });
-    fs.readFile(`html/productList`, 'utf8', function(err, description){     
-      prod = `${description}`;
-    });
-    var prodMenu = template.productMenu(cat, cri, prod);
-    console.log(prodMenu);
-    html = template.HTML(title, prodMenu);
-    response.send(html);
+  fs.readFile(`html/category`, 'utf8', function(err, description){     
+    cat = `${description}`;
+  });
+  fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
+    cri = `${description}`;
+  });
+  fs.readFile(`html/productList`, 'utf8', function(err, description){     
+    prod = `${description}`;
+    console.log(cat);
+  });
+  var prodMenu = template.productMenu(cat, cri, prod);
+  console.log(prodMenu);
+  html = template.HTML(title, prodMenu);
+  response.send(html);
 });
 
 /*app.get('/contact', function(request, response){
@@ -58,7 +58,7 @@ app.get('/contact', function(request, response){ // home으로 들어오면, 여
     //return res.send('Hello World!')
     // readdir은, data 디렉토리에 있는 파일들을 갖고 와서, 그것을 이용해서 파일을 구성. 
     // 현재 data 파일에 HTML이라는 파일 1개 있음.  
-    fs.readdir('./html', function(error, filelist){
+    //fs.readdir('./html', function(error, filelist){
       //var filteredId = path.parse(request.params.pageId).base; // queryData.id
       fs.readFile(`html/contact`, 'utf8', function(err, description){
         var title = "Contact";        
@@ -67,7 +67,7 @@ app.get('/contact', function(request, response){ // home으로 들어오면, 여
         response.send(html);
         //response.render(html);
       });
-    });
+    //});
     //response.render(html);
   });
 
