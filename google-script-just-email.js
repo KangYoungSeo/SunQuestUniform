@@ -102,12 +102,12 @@ function doPost(e) {
                       JSON.stringify(e.parameters));
     // return json success results
     */
-
-    /*return ContentService    // return json success results
+    
+    return ContentService    // return json success results
           .createTextOutput(
             JSON.stringify({"result":"success",
                             "data": JSON.stringify(e.parameters) }))
-          .setMimeType(ContentService.MimeType.JSON);*/
+          .setMimeType(ContentService.MimeType.JSON);
   } catch(error) { // if error return this
     Logger.log(error);
     return ContentService
