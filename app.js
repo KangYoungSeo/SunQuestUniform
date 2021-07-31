@@ -10,7 +10,6 @@ var sanitizeHtml = require('sanitize-html');
 var qs = require('querystring');
 var bodyParser = require('body-parser');
 var ejs = require('ejs'); // html 랜더링
-var googleScriptEmail = require('./assets/js/google-script-just-email.js');
 
 //app.use(static(path.join(__dirname,'../assets')));  // ejs 불가능 
 //app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
