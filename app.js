@@ -42,7 +42,7 @@ app.get('/womens', function(request, response){
     fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
       cri = `${description}`;
     });
-    fs.readFile(`html/product-list`, 'utf8', function(err, description){     
+    fs.readFile(`html/productList`, 'utf8', function(err, description){     
       prod = `${description}`;
     });
     var prodMenu = template.productMenu(cat, cri, prod);
