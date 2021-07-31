@@ -11,8 +11,9 @@ var qs = require('querystring');
 var bodyParser = require('body-parser');
 var ejs = require('ejs'); // html 랜더링
 
-//app.use(static(path.join(__dirname,'../assets'))); // ejs 가능 
-app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
+//app.use(static(path.join(__dirname,'../assets')));  
+//app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
+app.use('/content', static(path.join(__dirname,'assets')));
 //app.use('/', express.static('assets')); // ejs 가능 
 
 app.set("views", __dirname); // ejs 파일 가져올 폴더 지정(프로젝트명) 및 ejs 관련 설정
