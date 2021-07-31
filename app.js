@@ -71,7 +71,7 @@ app.post('/thankyou', function(request, response){
     response.send(html);
   });
 });
-app.get('https://script.googleusercontent.com/macros/', function(request, response){
+app.get('https://script.googleusercontent.com/macros/*', function(request, response){
   res.redirect('/thankyou');
 });
 app.post('https://script.google.com/macros/s/AKfycbylR4oEMC1a4lPkGHy5-JLGhe9-6aKFqmpYosNih3dowMHoKW2tkGSZpQsoUKIzP_Ii/exec', function(req, res){
