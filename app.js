@@ -10,6 +10,7 @@ var sanitizeHtml = require('sanitize-html');
 var qs = require('querystring');
 var bodyParser = require('body-parser');
 var ejs = require('ejs'); // html 랜더링
+const { nextTick } = require('process');
 
 //app.use(static(path.join(__dirname,'../assets')));  // ejs 불가능 
 //app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
@@ -60,8 +61,9 @@ app.get('/contact', function(request, response){
   response.render("contact.ejs");
 });
 
-app.post('/sendMail', function(request, response){
+app.post('/sendMail', function(request, response, next){
   doPost(request);
+  next();
 });
 app.post('/thankyou', function(request, response){
   //doPost(request);
