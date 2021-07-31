@@ -11,9 +11,9 @@ module.exports = {
     <link rel="apple-touch-icon" href="/img/apple-icon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/css/templatemo.css" />
-    <link rel="stylesheet" href="/css/custom.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/templatemo.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/custom.css" type = "text/html" />
 
     <!-- Start timezone-master-css index.html fonts -->
     <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" type = "text/html" />
@@ -30,20 +30,20 @@ module.exports = {
     <!-- End timezone-master-css index.html fonts -->
     
 <!--CY_필요한 css파일 추가-->
-    <link rel="stylesheet" href="/css/bootstrap.min2.css" />
-    <link rel="stylesheet" href="/css/owl.carousel.min2.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min2.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/owl.carousel.min2.css" type = "text/html" />
     
-    <link rel="stylesheet" href="/css/nice-select2.css" />
-    <link rel="stylesheet" href="/css/style2.css" />
-    <link rel="stylesheet" href="/css/filebox.css" />    
+    <link rel="stylesheet" href="/css/nice-select2.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/style2.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/filebox.css" type = "text/html" />    
     
-    <link rel="stylesheet" href="/css/flaticon.css" />
-    <link rel="stylesheet" href="/css/slicknav.css" />
-    <link rel="stylesheet" href="/css/animate.min.css" />
-    <link rel="stylesheet" href="/css/magnific-popup.css" />
-    <link rel="stylesheet" href="/css/fontawesome-all.min.css" />
-    <link rel="stylesheet" href="/css/themify-icons.css" />
-    <link rel="stylesheet" href="/css/slick2.css" />
+    <link rel="stylesheet" href="/css/flaticon.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/slicknav.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/animate.min.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/magnific-popup.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/fontawesome-all.min.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/themify-icons.css" type = "text/html" />
+    <link rel="stylesheet" href="/css/slick2.css" type = "text/html" />
 <!--CY_end-->
 
     <!--ogani-master css Start-->
@@ -51,23 +51,23 @@ module.exports = {
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet" />
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="/ogani-master-css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/ogani-master-css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/ogani-master-css/elegant-icons.css" />
-    <link rel="stylesheet" href="/ogani-master-css/nice-select.css" />
-    <link rel="stylesheet" href="/ogani-master-css/jquery-ui.min.css" />
-    <link rel="stylesheet" href="/ogani-master-css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="/ogani-master-css/slicknav.min.css" />
-    <link rel="stylesheet" href="/ogani-master-css/style.css" />
+    <link rel="stylesheet" href="/ogani-master-css/bootstrap.min.css" type = "text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/font-awesome.min.css" type = "text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/elegant-icons.css" type = "text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/nice-select.css" type = "text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/jquery-ui.min.css" type = "text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/owl.carousel.min.css" type = "text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/slicknav.min.css" type = "text/html" />
+    <link rel="stylesheet" href="/ogani-master-css/style.css" type = "text/html" />
     <!--ogani-master css End-->
 
     <!--Prevent Spam CSS Start-->
-    <link rel="stylesheet" href="/css/contact-css.css" />
+    <link rel="stylesheet" href="/css/contact-css.css" type = "text/html" />
     <!--Prevent Spam CSS End-->
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" />
-    <link rel="stylesheet" href="/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/css/fontawesome.min.css" type = "text/html" />
 
     <!-- Load map styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
