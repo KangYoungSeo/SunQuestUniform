@@ -16,7 +16,7 @@ module.exports = {
     <link rel="stylesheet" href="/css/custom.css" type = "Content-Type: text/css"/>
 
     <!-- Start timezone-master-css index.html fonts -->
-    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css" type = "Content-Type: text/css"/>
+    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css?ver=1" type = "Content-Type: text/css"/>
     <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css" type = "Content-Type: text/css"/>
     <link rel="stylesheet" href="/timezone-master-css/flaticon.css" type = "Content-Type: text/css"/>
     <link rel="stylesheet" href="/timezone-master-css/slicknav.css" type = "Content-Type: text/css"/>
