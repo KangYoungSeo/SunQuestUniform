@@ -64,11 +64,11 @@ app.get('/contact', function(request, response){ // home으로 들어오면, 여
         var title = "Contact";        
         var html = template.HTML(title, `${description}`);
         console.log(html);
-        response.send(html);
+        //response.send(html);
         //response.render(html);
       });
     //});
-    //response.render(html);
+    response.render(html);
   });
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
