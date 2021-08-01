@@ -202,13 +202,13 @@ function doPostThank(e) {
     // return json success results
     */
     
-    /*return ContentService    // return json success results
+    return ContentService    // return json success results
           .createTextOutput(
             JSON.stringify({"result":"success",
                             "data": JSON.stringify(e.parameters) }))
-          .setMimeType(ContentService.MimeType.JSON);*/
+          .setMimeType(ContentService.MimeType.JSON);
     //return HtmlService.createHtmlOutput('<b>Thank you!</b>');
-    return ContentService.createTextOutput("Thank you!").setMimeType(ContentService.MimeType.TEXT);
+    //return ContentService.createTextOutput("Thank you!").setMimeType(ContentService.MimeType.TEXT);
     
   } catch(error) { // if error return this
     Logger.log(error);
