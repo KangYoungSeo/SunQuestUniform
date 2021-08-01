@@ -61,9 +61,8 @@ app.get('/contact', function(request, response){
   response.render("contact.ejs");
 });
 
-app.post('/sendMail', function(request, response, next){
+app.post('/sendMail', function(request, response){
   doPost(request); // 리턴 받을 수 있으면 좋겠음... 아니면.. 그냥 코드를 넣는 방법도 있고..?
-  //next();
 });
 app.post('/thankyou', function(request, response){
   //doPost(request);
