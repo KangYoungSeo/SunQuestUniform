@@ -72,12 +72,12 @@ app.post('/thankyou', function(request, response){
     response.send(html);
   });
 });
-app.use('https://script.googleusercontent.com/macros/', function(request, response){
+/*app.use('https://script.googleusercontent.com/macros/', function(request, response){
   res.redirect('/thankyou');
 });
 app.post('https://script.google.com/macros/s/AKfycbylR4oEMC1a4lPkGHy5-JLGhe9-6aKFqmpYosNih3dowMHoKW2tkGSZpQsoUKIzP_Ii/exec', function(req, res){
   res.redirect('/thankyou');
-});
+});*/
 /*
 app.get('/contact', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
     //return res.send('Hello World!')
