@@ -108,7 +108,8 @@ function doPost(e) {
             JSON.stringify({"result":"success",
                             "data": JSON.stringify(e.parameters) }))
           .setMimeType(ContentService.MimeType.JSON);*/
-    return HtmlService.createHtmlOutput('<b>Thank you!</b>');
+    //return HtmlService.createHtmlOutput('<b>Thank you!</b>');
+    return ContentService.createTextOutput("Thank you!");
     
   } catch(error) { // if error return this
     Logger.log(error);
