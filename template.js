@@ -106,7 +106,7 @@ https://templatemo.com/tm-559-zay-shop
                             <a class="nav-link" href="/accessories">Accessories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact">Group Order</a>
+                            <a class="nav-link" href="https://group-order.netlify.app">Group Order</a>
                         </li>
                     </ul>
                 </div>

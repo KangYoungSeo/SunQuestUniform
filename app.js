@@ -58,7 +58,7 @@ app.get('/womens', function(request, response){
 });
 
 app.get('/contact', function(request, response){
-  response.render("contact.ejs");
+  response.redirect("https://group-order.netlify.app");
 });
 
 app.post('/sendMail', function(request, response){
