@@ -49,6 +49,25 @@ module.exports = {
     <!-- Load map styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
     
+    <!--fashi-master css Start-->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="assets/fashi-master-css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/fashi-master-css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/fashi-master-css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="assets/fashi-master-css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="assets/fashi-master-css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/fashi-master-css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="assets/fashi-master-css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/fashi-master-css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/fashi-master-css/style.css" type="text/css">
+
+    <!--fashi-master css Start-->
+    <!--Add new CSS-->
+    <link rel="stylesheet" href="assets/css/circle-color.css">
+    
 <!--
     
 TemplateMo 559 Zay Shop

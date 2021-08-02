@@ -39,12 +39,15 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
 });
 
 app.get('/womens', function(request, response){   
-  var title = "Womens";
-  var html, cat, cri, prod;
-  fs.readFile(`html/category`, 'utf8', function(err, description){     
-    cat = `${description}`;
+  //var title = "Womens";
+  //var html, cat, cri, prod;
+  fs.readFile(`html/womensScrub`, 'utf8', function(err, description){     
+    //cat = `${description}`;
+    var title = "Womens";
+    var html = template.HTML(title, `${description}`);
+    response.send(html);
   });
-  fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
+  /*fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
     cri = `${description}`;
   });
   fs.readFile(`html/productList`, 'utf8', function(err, description){     
@@ -52,9 +55,9 @@ app.get('/womens', function(request, response){
     console.log(prod);
   });
   var prodMenu = template.productMenu(cat, cri, prod);
-  console.log(prodMenu);
-  html = template.HTML(title, prodMenu);
-  response.send(html);
+  console.log(prodMenu);*/
+  //html = template.HTML(title, prodMenu);
+  //response.send(html);
 });
 
 app.get('/contact', function(request, response){
