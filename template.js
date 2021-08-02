@@ -68,6 +68,12 @@ module.exports = {
     <!--Add new CSS-->
     <link rel="stylesheet" href="/css/circle-color.css" />
 
+    <!-- Slick -->
+    <link rel="stylesheet" href="/css/slick.min.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
+    <!--plus details-->
+    <link href="/css/details.css" rel="stylesheet">
+
 <!--
     
 TemplateMo 559 Zay Shop
@@ -269,6 +275,8 @@ https://templatemo.com/tm-559-zay-shop
     <script src="/fashi-master-js/jquery.slicknav.js"></script>
     <script src="/fashi-master-js/owl.carousel.min.js"></script>
     <script src="/fashi-master-js/main.js"></script>
+
+    <script src="/js/slick.min.js"></script>
 </body>
 
 </html>

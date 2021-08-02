@@ -191,4 +191,61 @@ app.get('/shop-single-popup', function(request, response){
   });
 });
 
+app.get('/shop-single', function(request, response){
+  /*fs.readFile(`html/shop-single`, 'utf8', function(err, description){
+    //var title = "shop-single-popup"; //queryData.id;       
+    //var html = template.HTML(title, topMenu, `${description}`);
+    response.send(`${description}`);
+  });*/
+  fs.readFile(`html/shopping-cart`, 'utf8', function(err, description){
+    var title = "Shopping-Cart"; //queryData.id;       
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+app.get('/shipping-and-handling', function(request, response){
+  fs.readFile(`html/shipping-and-handling`, 'utf8', function(err, description){
+    var title = "shipping-and-handling"; //queryData.id;       
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+app.get('/register', function(request, response){
+  fs.readFile(`html/register`, 'utf8', function(err, description){
+    var title = "Register";      
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
