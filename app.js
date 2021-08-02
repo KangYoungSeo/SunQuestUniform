@@ -39,11 +39,8 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
 });
 
 app.get('/womens', function(request, response){   
-  //var title = "Womens";
-  //var html, cat, cri, prod;
-  fs.readFile(`html/womensScrub`, 'utf8', function(err, description){     
-    //cat = `${description}`;
-    var title = "Womens";
+  fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
+    var title = "Womens-Scrubs";
     var html = template.HTML(title, `${description}`);
     response.send(html);
   });
@@ -59,12 +56,28 @@ app.get('/womens', function(request, response){
   //html = template.HTML(title, prodMenu);
   //response.send(html);
 });
+app.get('/Womens-Scrubs', function(request, response){   
+  fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
+    var title = "Womens-Scrubs";
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="Accessories-Women.html">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
 
-app.get('/contact', function(request, response){
+app.get('/GroupOrder', function(request, response){
   response.redirect("https://group-order.netlify.app");
 });
 
-app.post('/sendMail', function(request, response){
+/*app.post('/sendMail', function(request, response){
   //doPost(request); // 리턴 받을 수 있으면 좋겠음... 아니면.. 그냥 코드를 넣는 방법도 있고..?
   doPostThank(request);
 });
@@ -75,28 +88,6 @@ app.post('/thankyou', function(request, response){
     var html = template.HTML(title, `${description}`);
     response.send(html);
   });
-});
-/*app.use('https://script.googleusercontent.com/macros/', function(request, response){
-  res.redirect('/thankyou');
-});
-app.post('https://script.google.com/macros/s/AKfycbylR4oEMC1a4lPkGHy5-JLGhe9-6aKFqmpYosNih3dowMHoKW2tkGSZpQsoUKIzP_Ii/exec', function(req, res){
-  res.redirect('/thankyou');
 });*/
-/*
-app.get('/contact', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
-    //return res.send('Hello World!')
-    // readdir은, data 디렉토리에 있는 파일들을 갖고 와서, 그것을 이용해서 파일을 구성. 
-    // 현재 data 파일에 HTML이라는 파일 1개 있음.  
-    //fs.readdir('./html', function(error, filelist){
-      fs.readFile(`html/contact`, 'utf8', function(err, description){
-        var title = "Contact";        
-        var html = template.HTML(title, `${description}`);
-        console.log(`${description}`);
-        response.send(html);
-        //response.render(html);
-      });
-    //});
-    //response.render(html);
-  });*/
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
