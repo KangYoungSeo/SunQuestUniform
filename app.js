@@ -10,7 +10,6 @@ var sanitizeHtml = require('sanitize-html');
 var qs = require('querystring');
 var bodyParser = require('body-parser');
 var ejs = require('ejs'); // html 랜더링
-const { nextTick } = require('process');
 
 //app.use(static(path.join(__dirname,'../assets')));  // ejs 불가능 
 //app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
@@ -65,6 +64,7 @@ app.get('/Womens-Scrubs', function(request, response){
   //html = template.HTML(title, prodMenu);
   //response.send(html);
 });
+
 app.get('/Mens-Scrubs', function(request, response){   
   fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
     var title = "Womens-Scrubs";
