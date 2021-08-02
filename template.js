@@ -276,7 +276,7 @@ https://templatemo.com/tm-559-zay-shop
     <script src="/fashi-master-js/owl.carousel.min.js"></script>
     <script src="/fashi-master-js/main.js"></script>
 
-    <script src="/js/slick.min.js"></script>
+    
 </body>
 
 </html>
