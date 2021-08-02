@@ -51,22 +51,22 @@ module.exports = {
     
     <!--fashi-master css Start-->
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="/fashi-master-css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/fashi-master-css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/fashi-master-css/themify-icons.css" type="text/css">
-    <link rel="stylesheet" href="/fashi-master-css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="/fashi-master-css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="/fashi-master-css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="/fashi-master-css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="/fashi-master-css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/fashi-master-css/style.css" type="text/css">
+    <link rel="stylesheet" href="/fashi-master-css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/fashi-master-css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/fashi-master-css/themify-icons.css" />
+    <link rel="stylesheet" href="/fashi-master-css/elegant-icons.css" />
+    <link rel="stylesheet" href="/fashi-master-css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/fashi-master-css/nice-select.css" />
+    <link rel="stylesheet" href="/fashi-master-css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="/fashi-master-css/slicknav.min.css" />
+    <link rel="stylesheet" href="/fashi-master-css/style.css"/ >
 
     <!--fashi-master css Start-->
     <!--Add new CSS-->
-    <link rel="stylesheet" href="/css/circle-color.css">
+    <link rel="stylesheet" href="/css/circle-color.css"/>
 
 <!--
     

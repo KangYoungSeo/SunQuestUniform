@@ -66,7 +66,7 @@ app.get('/Womens-Scrubs', function(request, response){
     <a class="nav-link" href="/Mens-Scrubs">Mens</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="Accessories-Women.html">Accessories</a>
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
 </li>`;
     var html = template.HTML(title, topMenu, `${description}`);
     response.send(html);
