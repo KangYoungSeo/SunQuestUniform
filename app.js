@@ -80,6 +80,39 @@ app.get('/Womens-PatientGowns', function(request, response){
   });
 });
 
+app.get('/Womens-OtherApparel', function(request, response){   
+  fs.readFile(`html/Womens-OtherApparel`, 'utf8', function(err, description){     
+    var title = "Womens-OtherApparel";
+    var topMenu = `<li class="nav-item">
+      <a class="nav-link" href="/Womens-Scrubs" style="color: #FD86A4">Womens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Accessories-Women">Accessories</a>
+  </li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+app.get('/Womens-LabCoats', function(request, response){   
+  fs.readFile(`html/Womens-LabCoats`, 'utf8', function(err, description){     
+    var title = "Womens-LabCoats";
+    var topMenu = `<li class="nav-item">
+      <a class="nav-link" href="/Womens-Scrubs" style="color: #FD86A4">Womens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Accessories-Women">Accessories</a>
+  </li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
 
 
 app.get('/Mens-Scrubs', function(request, response){   
@@ -115,5 +148,47 @@ app.post('/thankyou', function(request, response){
     response.send(html);
   });
 });*/
+
+app.get('/term-and-policy', function(request, response){
+    fs.readFile(`html/term-and-policy`, 'utf8', function(err, description){
+      var title = "Term & Policy"; //queryData.id;       
+      var topMenu = `<li class="nav-item">
+      <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Accessories-Women">Accessories</a>
+  </li>`;
+      var html = template.HTML(title, topMenu, `${description}`);
+      response.send(html);
+    });
+});
+
+app.get('/shopping-cart', function(request, response){
+  fs.readFile(`html/shopping-cart`, 'utf8', function(err, description){
+    var title = "Shopping-Cart"; //queryData.id;       
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+app.get('/shop-single-popup', function(request, response){
+  fs.readFile(`html/shop-single-popup`, 'utf8', function(err, description){
+    //var title = "shop-single-popup"; //queryData.id;       
+    //var html = template.HTML(title, topMenu, `${description}`);
+    response.send(`${description}`);
+  });
+});
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Clover Uniform</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="assets/css/popup.css">
+
+</head>
+<body>
+    <div class="emboridery-left">
+        <div>
+            <div class="emboridery-image">IMAGE</div>
+            <BR>
+            <CENTER>
+                <a href="#" class="myButton">LEFT SIDE</a>
+                <a href="#" class="myButton">RIGHT SIDE</a>
+            </CENTER>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="emboridery-right">
+        <div>
+            <!------------------------------------------------------------->
+                        <style>
+                            select {
+                                width: 200px;
+                                padding: .8em .5em;
+                                border: 1px solid #999;
+                                font-family: inherit;
+                                background: url('assets/img/icon/arrow.jpeg')
+                                no-repeat 95% 50%;
+                                border-radius: 0px;
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                appearance: none;
+                                }
+                        </style>
+            <!------------------------------------------------------------->
+
+            <div class="select form">
+                font style<br>
+                <form>
+                    <select name="font">
+                        <option value="1">font1</option>
+                        <option value="1">font2</option>
+                        <option value="1">font3</option>
+                        <option value="1">font4</option>
+                        <option value="1">font5</option>
+                        <option value="1">font6</option>
+                        <option value="1">font7</option>
+                        <option value="1">font8</option>
+                        <option value="1">font9</option>
+                        <option value="1">font10</option>
+                    </select>
+                </form>
+            </div>
+            <br>
+            <div>
+                font color<br>
+                <form>
+                    <input type="color" "value=#00BFFF">
+                </form>
+            </div>
+            <br>
+            <div >
+                text placement<br>
+                <form>
+                    <select name="where">
+                        <option value="1">left chest</option>
+                        <option value="1">font2</option>
+                        <option value="1">font3</option>
+                        <option value="1">font4</option>
+                        <option value="1">font5</option>
+                        <option value="1">font6</option>
+                        <option value="1">font7</option>
+                        <option value="1">font8</option>
+                        <option value="1">font9</option>
+                        <option value="1">font10</option>
+                    </select>
+                </form>
+            </div>
+            <br>
+            <div class="filebox">
+                <label for="ex_file">Embroidery - Logo(upload design)</label>
+                <input type="file" id="ex_file">
+            </div>
+            <br>
+            
+            <div class="form__group field">
+              <input type="input" class="form__field" placeholder="Text2" name="name" id='name' required />
+              <label for="name" class="form__label"></label>
+            </div><br>
+            <input type="input" class="form__field" placeholder="Text3" name="name" id='name' required />
+              <label for="name" class="form__label"></label>
+
+            <div>
+            
+            </div>
+        </div>        
+
+    </div>
+
+    <div>
+        <div  style="padding-left:50px">
+            expected addtional price : $148
+        </div>
+
+        <BR>
+        <center>
+            <a href="#" class="myButton2">CANCEL</a>
+            <a href="#" class="myButton2">APPLY EMBRIODERY</a>
+
+        </center>
+
+    </div>
+    
+</body>
+
+</html>

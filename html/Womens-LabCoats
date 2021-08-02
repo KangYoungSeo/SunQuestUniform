@@ -6,32 +6,32 @@
                     <div class="filter-widget">
                         <h4 class="fw-title">Categories</h4>
                         <ul class="filter-catagories">
-                            <li><a href="/Womens-Scrubs" style="color: #FD86A4">Scrubs</a></li>
-                            <li><a href="/Womens-LabCoats">Lab Coats</a></li>
-                            <li><a href="/Womens-OtherApparel">Other Apparel</a></li>
-                            <li><a href="/Womens-PatientGowns">Patient Gowns</a></li>
+                            <li><a href="Womens-Scrubs.html">Scrubs</a></li>
+                            <li><a style="color: #FD86A4" href="Womens-LabCoats.html">Lab Coats</a></li>
+                            <li><a href="Womens-OtherApparel.html">Other Apparel</a></li>
+                            <li><a href="Womens-PatientGowns.html">Patient Gowns</a></li>
                         </ul>
                     </div>
                     <div class="filter-widget">
-                        <h4 class="fw-title">Singe / Set</h4>
+                        <h4 class="fw-title">Length</h4>
                         <div class="fw-brand-check">
                             <div class="bc-item">
                                 <label for="bc-calvin">
-                                    Top
+                                    Consultation Length
                                     <input type="checkbox" id="bc-calvin">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="bc-item">
                                 <label for="bc-diesel">
-                                    Bottom
+                                    Mid Thigh Length
                                     <input type="checkbox" id="bc-diesel">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="bc-item">
                                 <label for="bc-polo">
-                                    Set
+                                    Knee Length
                                     <input type="checkbox" id="bc-polo">
                                     <span class="checkmark"></span>
                                 </label>
@@ -42,23 +42,9 @@
                     <div class="filter-widget">
                         <h4 class="fw-title">Color</h4>
 
-                        <div id="circle-color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Black</div>
+                        <div id="circle-color-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;White</div>
                         <h5><br></h5>
-                        <div id="circle-color-royalblue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Royal&nbsp;Blue</div>
-                        <h5><br></h5>
-                        <div id="circle-color-steelgrey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steel&nbsp;Grey</div>
-                        <h5><br></h5>
-                        <div id="circle-color-carribeanblue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carribean&nbsp;Blue</div>
-                        <h5><br></h5>
-                        <div id="circle-color-burgundy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Burgundy</div>
-                        <h5><br></h5>
-                        <div id="circle-color-red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Red</div>
-                        <h5><br></h5>
-                        <div id="circle-color-navy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navy</div>
-                        <h5><br></h5>
-                        <div id="circle-color-hundergreen">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hunder&nbsp;Green</div>
-                        <h5><br></h5>
-                        <div id="circle-color-charcoalgrey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charcoal&nbsp;Grey</div>
+                        <div id="circle-color-royalblue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blue</div>  
                     </div>
                     
                 </div>
@@ -74,7 +60,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-1.jpg" alt="">
+                                        <img src="assets/img/products/product-1.jpg" alt="">
                                         <div class="sale pp-sale">Sale</div>
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
@@ -100,7 +86,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-2.jpg" alt="">
+                                        <img src="assets/img/products/product-2.jpg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
@@ -125,7 +111,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-3.jpg" alt="">
+                                        <img src="assets/img/products/product-3.jpg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
@@ -150,7 +136,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-4.jpg" alt="">
+                                        <img src="assets/img/products/product-4.jpg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
@@ -175,7 +161,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-5.jpg" alt="">
+                                        <img src="assets/img/products/product-5.jpg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
@@ -200,7 +186,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-6.jpg" alt="">
+                                        <img src="assets/img/products/product-6.jpg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
@@ -225,7 +211,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-7.jpg" alt="">
+                                        <img src="assets/img/products/product-7.jpg" alt="">
                                         <div class="sale pp-sale">Sale</div>
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
@@ -251,7 +237,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-8.jpg" alt="">
+                                        <img src="assets/img/products/product-8.jpg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
@@ -276,7 +262,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="/img/products/product-9.jpg" alt="">
+                                        <img src="assets/img/products/product-9.jpg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
