@@ -49,7 +49,16 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
 app.get('/Womens-Scrubs', function(request, response){   
   fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
     var title = "Womens-Scrubs";
-    var html = template.HTML(title, `${description}`);
+    var topMenu = `<li class="nav-item">
+      <a class="nav-link" href="/Womens-Scrubs" style="color: #FD86A4">Womens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Accessories-Women">Accessories</a>
+  </li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
     response.send(html);
   });
   /*fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
