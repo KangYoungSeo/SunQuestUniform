@@ -265,7 +265,7 @@ https://templatemo.com/tm-559-zay-shop
     <!-- End Script -->
 
     <!-- term-and-policy Js Plugins -->
-    <script src="/fashi-master-js/jquery-3.3.1.min.js"></script>
+    <!--script src="/fashi-master-js/jquery-3.3.1.min.js"></script>
     <script src="/fashi-master-js/bootstrap.min.js"></script>
     <script src="/fashi-master-js/jquery-ui.min.js"></script>
     <script src="/fashi-master-js/jquery.countdown.min.js"></script>
@@ -274,9 +274,7 @@ https://templatemo.com/tm-559-zay-shop
     <script src="/fashi-master-js/jquery.dd.min.js"></script>
     <script src="/fashi-master-js/jquery.slicknav.js"></script>
     <script src="/fashi-master-js/owl.carousel.min.js"></script>
-    <script src="/fashi-master-js/main.js"></script>
-
-    
+    <script src="/fashi-master-js/main.js"></script-->
 </body>
 
 </html>
