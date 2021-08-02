@@ -62,11 +62,11 @@ module.exports = {
     <link rel="stylesheet" href="/fashi-master-css/nice-select.css" />
     <link rel="stylesheet" href="/fashi-master-css/jquery-ui.min.css" />
     <link rel="stylesheet" href="/fashi-master-css/slicknav.min.css" />
-    <link rel="stylesheet" href="/fashi-master-css/style.css"/ >
+    <link rel="stylesheet" href="/fashi-master-css/style.css" />
 
     <!--fashi-master css Start-->
     <!--Add new CSS-->
-    <link rel="stylesheet" href="/css/circle-color.css"/>
+    <link rel="stylesheet" href="/css/circle-color.css" />
 
 <!--
     

@@ -32,13 +32,22 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
     //var filteredId = path.parse(request.params.pageId).base; // queryData.id
     fs.readFile(`html/index`, 'utf8', function(err, description){
       var title = "Home Page"; //queryData.id;       
-      var html = template.HTML(title, `${description}`);
+      var topMenu = `<li class="nav-item">
+      <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Accessories-Women">Accessories</a>
+  </li>`;
+      var html = template.HTML(title, topMenu, `${description}`);
       response.send(html);
     });
   //});
 });
 
-app.get('/womens', function(request, response){   
+app.get('/Womens-Scrubs', function(request, response){   
   fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
     var title = "Womens-Scrubs";
     var html = template.HTML(title, `${description}`);
@@ -56,7 +65,7 @@ app.get('/womens', function(request, response){
   //html = template.HTML(title, prodMenu);
   //response.send(html);
 });
-app.get('/Womens-Scrubs', function(request, response){   
+app.get('/Mens-Scrubs', function(request, response){   
   fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
     var title = "Womens-Scrubs";
     var topMenu = `<li class="nav-item">
