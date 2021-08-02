@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="assets/css/popup.css">
+        <link rel="stylesheet" href="/css/popup.css">
 
 </head>
 <body>
@@ -35,7 +35,7 @@
                                 padding: .8em .5em;
                                 border: 1px solid #999;
                                 font-family: inherit;
-                                background: url('assets/img/icon/arrow.jpeg')
+                                background: url('/img/icon/arrow.jpeg')
                                 no-repeat 95% 50%;
                                 border-radius: 0px;
                                 -webkit-appearance: none;
