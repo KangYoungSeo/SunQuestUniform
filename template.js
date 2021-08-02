@@ -69,10 +69,9 @@ module.exports = {
     <link rel="stylesheet" href="/css/circle-color.css" />
 
     <!-- Slick -->
-    <link rel="stylesheet" href="/css/slick.min.css">
+    <!--link rel="stylesheet" href="/css/slick.min.css">
     <link rel="stylesheet" href="/css/slick-theme.css">
-    <!--plus details-->
-    <link href="/css/details.css" rel="stylesheet">
+    <link href="/css/details.css" rel="stylesheet"-->
 
 <!--
     
