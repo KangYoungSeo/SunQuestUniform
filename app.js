@@ -232,18 +232,7 @@ app.get('/shipping-and-handling', function(request, response){
 
 app.get('/register', function(request, response){
   fs.readFile(`html/register`, 'utf8', function(err, description){
-    var title = "Register";      
-    var topMenu = `<li class="nav-item">
-    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="/Accessories-Women">Accessories</a>
-</li>`;
-    var html = template.HTML(title, topMenu, `${description}`);
-    response.send(html);
+    response.send(`${description}`);
   });
 });
 
