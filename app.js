@@ -61,18 +61,26 @@ app.get('/Womens-Scrubs', function(request, response){
     var html = template.HTML(title, topMenu, `${description}`);
     response.send(html);
   });
-  /*fs.readFile(`html/scrub-criteria`, 'utf8', function(err, description){     
-    cri = `${description}`;
-  });
-  fs.readFile(`html/productList`, 'utf8', function(err, description){     
-    prod = `${description}`;
-    console.log(prod);
-  });
-  var prodMenu = template.productMenu(cat, cri, prod);
-  console.log(prodMenu);*/
-  //html = template.HTML(title, prodMenu);
-  //response.send(html);
 });
+
+app.get('/Womens-PatientGowns', function(request, response){   
+  fs.readFile(`html/Womens-PatientGowns`, 'utf8', function(err, description){     
+    var title = "Womens-PatientGowns";
+    var topMenu = `<li class="nav-item">
+      <a class="nav-link" href="/Womens-Scrubs" style="color: #FD86A4">Womens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Accessories-Women">Accessories</a>
+  </li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+
 
 app.get('/Mens-Scrubs', function(request, response){   
   fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
@@ -81,7 +89,7 @@ app.get('/Mens-Scrubs', function(request, response){
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+    <a class="nav-link" href="/Mens-Scrubs" style="color: #FD86A4">Mens</a>
 </li>
 <li class="nav-item">
     <a class="nav-link" href="/Accessories-Women">Accessories</a>
