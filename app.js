@@ -116,8 +116,59 @@ app.get('/Womens-LabCoats', function(request, response){
 
 
 app.get('/Mens-Scrubs', function(request, response){   
-  fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
-    var title = "Womens-Scrubs";
+  fs.readFile(`html/Mens-Scrubs`, 'utf8', function(err, description){     
+    var title = "Mens-Scrubs";
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs" style="color: #FD86A4">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+app.get('/Mens-PatientGowns', function(request, response){   
+  fs.readFile(`html/Mens-PatientGowns`, 'utf8', function(err, description){     
+    var title = "Mens-PatientGowns";
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs" style="color: #FD86A4">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+app.get('/Mens-OtherApparel', function(request, response){   
+  fs.readFile(`html/Mens-OtherApparel`, 'utf8', function(err, description){     
+    var title = "Mens-OtherApparel";
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs" style="color: #FD86A4">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
+app.get('/Mens-LabCoats', function(request, response){   
+  fs.readFile(`html/Mens-LabCoats`, 'utf8', function(err, description){     
+    var title = "Mens-LabCoats";
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -152,7 +203,7 @@ app.post('/thankyou', function(request, response){
 
 app.get('/shopping-cart', function(request, response){
   fs.readFile(`html/shopping-cart`, 'utf8', function(err, description){
-    var title = "Shopping-Cart"; //queryData.id;       
+    var title = "Shopping-Cart";        
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -169,15 +220,13 @@ app.get('/shopping-cart', function(request, response){
 
 app.get('/shop-single-popup', function(request, response){
   fs.readFile(`html/shop-single-popup`, 'utf8', function(err, description){
-    //var title = "shop-single-popup"; //queryData.id;       
-    //var html = template.HTML(title, topMenu, `${description}`);
     response.send(`${description}`);
   });
 });
 
 app.get('/shipping-and-handling', function(request, response){
   fs.readFile(`html/shipping-and-handling`, 'utf8', function(err, description){
-    var title = "shipping-and-handling"; //queryData.id;       
+    var title = "shipping-and-handling";       
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -194,7 +243,7 @@ app.get('/shipping-and-handling', function(request, response){
 
 app.get('/term-and-policy', function(request, response){
   fs.readFile(`html/term-and-policy`, 'utf8', function(err, description){
-    var title = "Term & Policy"; //queryData.id;       
+    var title = "Term & Policy";     
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
