@@ -281,7 +281,7 @@ https://templatemo.com/tm-559-zay-shop
     <script src="/fashi-master-js/owl.carousel.min.js"></script>
     <script src="/fashi-master-js/main.js"></script>
 
-    <script data-cfasync="false" type="text/javascript"src="form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="/js/form-submission-handler.js"></script>
 </body>
 
 </html>
