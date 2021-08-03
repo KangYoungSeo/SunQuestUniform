@@ -30,7 +30,7 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
   //fs.readdir('./html', function(error, filelist){
     //var filteredId = path.parse(request.params.pageId).base; // queryData.id
     fs.readFile(`html/Main`, 'utf8', function(err, description){
-      var title = ""; //queryData.id;       
+      var title = "Home"; //queryData.id;       
       var topMenu = `<li class="nav-item">
       <a class="nav-link" href="/Womens-Scrubs">Womens</a>
   </li>
@@ -44,6 +44,23 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
       response.send(html);
     });
   //});
+});
+
+app.get('/about', function(request, response){ 
+    fs.readFile(`html/about`, 'utf8', function(err, description){
+      var title = "About Us";        
+      var topMenu = `<li class="nav-item">
+      <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="/Accessories-Women">Accessories</a>
+  </li>`;
+      var html = template.HTML(title, topMenu, `${description}`);
+      response.send(html);
+    });
 });
 
 app.get('/Womens-Scrubs', function(request, response){   
