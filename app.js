@@ -46,22 +46,7 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
   //});
 });
 
-app.get('/about', function(request, response){ 
-    fs.readFile(`html/about`, 'utf8', function(err, description){
-      var title = "About Us";        
-      var topMenu = `<li class="nav-item">
-      <a class="nav-link" href="/Womens-Scrubs">Womens</a>
-  </li>
-  <li class="nav-item">
-      <a class="nav-link" href="/Mens-Scrubs">Mens</a>
-  </li>
-  <li class="nav-item">
-      <a class="nav-link" href="/Accessories-Women">Accessories</a>
-  </li>`;
-      var html = template.HTML(title, topMenu, `${description}`);
-      response.send(html);
-    });
-});
+
 
 app.get('/Womens-Scrubs', function(request, response){   
   fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
@@ -292,6 +277,29 @@ app.get('/shipping-and-handling', function(request, response){
   });
 });
 
+app.get('/register', function(request, response){
+  fs.readFile(`html/register`, 'utf8', function(err, description){
+    response.send(`${description}`);
+  });
+});
+
+app.get('/about', function(request, response){ 
+  fs.readFile(`html/about`, 'utf8', function(err, description){
+    var title = "About Us";        
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
+});
+
 app.get('/term-and-policy', function(request, response){
   fs.readFile(`html/term-and-policy`, 'utf8', function(err, description){
     var title = "Term & Policy";     
@@ -309,11 +317,21 @@ app.get('/term-and-policy', function(request, response){
   });
 });
 
-app.get('/register', function(request, response){
-  fs.readFile(`html/register`, 'utf8', function(err, description){
-    response.send(`${description}`);
-  });
+app.get('/faqs', function(request, response){ 
+fs.readFile(`html/faqs`, 'utf8', function(err, description){
+  var title = "FAQs";        
+  var topMenu = `<li class="nav-item">
+  <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/Accessories-Women">Accessories</a>
+</li>`;
+  var html = template.HTML(title, topMenu, `${description}`);
+  response.send(html);
 });
-
+});
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
