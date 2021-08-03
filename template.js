@@ -117,15 +117,6 @@ https://templatemo.com/tm-559-zay-shop
         <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
             <div class="flex-fill">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                    <!--li class="nav-item">
-                        <a class="nav-link" href="/Womens-Scrubs">Womens</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Mens-Scrubs">Mens</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Accessories-Women">Accessories</a>
-                    </li-->
                     ${TopMenu}
                     <li class="nav-item">
                         <a class="nav-link" href="/GroupOrder">Group Order</a>
