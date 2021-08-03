@@ -223,23 +223,6 @@ app.get('/GroupOrder', function(request, response){
   response.redirect("https://group-order.netlify.app");
 });
 
-app.get('/contact', function(request, response){
-  fs.readFile(`html/contact`, 'utf8', function(err, description){
-    var title = "contact";        
-    var topMenu = `<li class="nav-item">
-    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="/Accessories-Women">Accessories</a>
-</li>`;
-    var html = template.HTML(title, topMenu, `${description}`);
-    response.send(html);
-  });
-});
-
 /*app.post('/sendMail', function(request, response){
   //doPost(request); // 리턴 받을 수 있으면 좋겠음... 아니면.. 그냥 코드를 넣는 방법도 있고..?
   doPostThank(request);
@@ -253,6 +236,11 @@ app.post('/thankyou', function(request, response){
   });
 });*/
 
+app.get('/shop-single', function(request, response){
+  fs.readFile(`html/shop-single`, 'utf8', function(err, description){
+    response.send(`${description}`);
+  });
+});
 
 app.get('/shopping-cart', function(request, response){
   fs.readFile(`html/shopping-cart`, 'utf8', function(err, description){
