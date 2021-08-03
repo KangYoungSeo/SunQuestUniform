@@ -29,8 +29,8 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
   // fs 모듈은 위에서 정의해야 함. 
   //fs.readdir('./html', function(error, filelist){
     //var filteredId = path.parse(request.params.pageId).base; // queryData.id
-    fs.readFile(`html/index`, 'utf8', function(err, description){
-      var title = "Home Page"; //queryData.id;       
+    fs.readFile(`html/Main`, 'utf8', function(err, description){
+      var title = ""; //queryData.id;       
       var topMenu = `<li class="nav-item">
       <a class="nav-link" href="/Womens-Scrubs">Womens</a>
   </li>
