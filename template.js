@@ -73,6 +73,21 @@ module.exports = {
     <link rel="stylesheet" href="/css/slick-theme.css">
     <link href="/css/details.css" rel="stylesheet"-->
 
+    <!--CY_필요한 css파일 추가-->
+    <link rel="stylesheet" href="/css/bootstrap.min2.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min2.css">
+
+    
+    
+    <link rel="stylesheet" href="/css/nice-select2.css">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" href="/css/filebox.css">    
+    <!--CY_end-->
+
+    <!--Prevent Spam CSS Start-->
+    <link rel="stylesheet" href="/css/contact-css.css" type="text/css">
+    <!--Prevent Spam CSS End-->
+
 <!--
     
 TemplateMo 559 Zay Shop
@@ -265,6 +280,8 @@ https://templatemo.com/tm-559-zay-shop
     <script src="/fashi-master-js/jquery.slicknav.js"></script>
     <script src="/fashi-master-js/owl.carousel.min.js"></script>
     <script src="/fashi-master-js/main.js"></script>
+
+    <script data-cfasync="false" type="text/javascript"src="form-submission-handler.js"></script>
 </body>
 
 </html>
