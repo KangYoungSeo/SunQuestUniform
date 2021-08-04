@@ -223,8 +223,8 @@ app.get('/GroupOrder', function(request, response){
   response.redirect("https://group-order.netlify.app");
 });
 
-app.get('/contact-prac', function(request, response){
-  response.redirect("contact-prac.html");
+app.get('/contact-prac.html', function(request, response){
+  response.redirect("/contact-prac.html");
 });
 
 /*app.post('/sendMail', function(request, response){
