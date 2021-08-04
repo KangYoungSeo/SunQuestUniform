@@ -1,0 +1,120 @@
+
+
+
+    <!-- Start Content Page -->
+    <div class="container-fluid bg-light py-5">
+        <div class="col-md-6 m-auto text-center">
+            <h1 class="h1">Group order / Whole sales order</h1>
+            <p>
+                Please contact us with below info.
+            </p>
+        </div>
+    </div>
+
+    <!--? Group Order  Start-->
+    <div>
+        <div class="container">
+            <div class="row align-items-center justify-content-between padding-130">
+                <div class="col-lg-5 col-md-6">
+                    <div class="watch-details mb-40">
+                        <center>
+                        <h1>Group Order Description</h1>
+                        <h4>Production Minimum<h4>
+                        <p>
+                            <li>+100pcs</li>
+                            <li>+300pcs</li>
+                            <li>+500pcs</li>
+                        </p>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-10">
+                    <div class="choice-watch-img mb-40">
+                        <img src="img/gallery/choce_watch1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Group Order From Image -->
+    
+    <div class="contact-form spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="contact__form__title">
+                            <h2>Group Order Form</h2>
+                        </div>
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="row">
+                        <!--First Name / Last Name-->
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="First Name">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <!--Email / Phone Number-->
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        <!--Company Name / School Name -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Company Name / School Name">
+                        </div>
+                        <!--Items Description -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Items / Description">
+                        </div>
+                        <!--Color -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Color">
+                        </div>
+                        <!--How many sets per Employee are you are looking for to get -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="How many sets per Employee are you are looking for to get">
+                        </div>
+                        <!--How many sets you need -->
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="How many sets you need">
+                        </div>
+                        <!--Logo (upload design) -->
+                        <form action="upload" id="uploadForm" method="post" enctype="multipart/form-data">
+
+                        <!--input type="file" name="file" id="imageFileOpenInput" accept="image/*"-->
+                        
+                        <div class="filebox">
+                            <label for="ex_file">Embroidery - Logo(upload design)</label>
+                            <input type="file" id="ex_file">
+                        </div>
+                        <h4><br></h4>
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Embroidery - Text Line 1">
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Embroidery - Text Line 2">
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <input type="text" placeholder="Embroidery - Text Line 3">
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <textarea placeholder="Additional Message"></textarea>
+                            <button type="submit" class="site-btn">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+<br>
+<br>
+<br>

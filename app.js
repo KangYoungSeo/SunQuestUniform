@@ -220,7 +220,21 @@ app.get('/Accessories-Men', function(request, response){
 });
 
 app.get('/GroupOrder', function(request, response){
-  response.redirect("https://group-order.netlify.app");
+  //response.redirect("https://group-order.netlify.app");
+  fs.readFile(`html/GroupOrder`, 'utf8', function(err, description){     
+    var title = "GroupOrder";
+    var topMenu = `<li class="nav-item">
+    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/Accessories-Women" style="color: #FD86A4">Accessories</a>
+</li>`;
+    var html = template.HTML(title, topMenu, `${description}`);
+    response.send(html);
+  });
 });
 
 app.get('/contact', function(request, response){
