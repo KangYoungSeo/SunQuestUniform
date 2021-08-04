@@ -119,7 +119,7 @@ https://templatemo.com/tm-559-zay-shop
                 <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                     ${TopMenu}
                     <li class="nav-item">
-                        <a class="nav-link" href="/GroupOrder">Group Order</a>
+                        <a class="nav-link" href="/contact">Group Order</a>
                     </li>
                 </ul>
             </div>

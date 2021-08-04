@@ -219,7 +219,7 @@ app.get('/Accessories-Men', function(request, response){
   });
 });
 
-app.get('/GroupOrder', function(request, response){
+/*app.get('/GroupOrder', function(request, response){
   //response.redirect("https://group-order.netlify.app");
   fs.readFile(`html/GroupOrder`, 'utf8', function(err, description){     
     var title = "GroupOrder";
@@ -235,11 +235,9 @@ app.get('/GroupOrder', function(request, response){
     var html = template.HTML(title, topMenu, `${description}`);
     response.send(html);
   });
-});
+});*/
 
 app.get('/contact', function(request, response){
-  //response.redirect("/contact-prac.html");
-  //response.send("contact-prac.html");
   fs.readFile(`html/contact`, 'utf8', function(err, description){
     response.send(`${description}`);
   });
