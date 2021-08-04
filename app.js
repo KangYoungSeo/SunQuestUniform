@@ -223,6 +223,10 @@ app.get('/GroupOrder', function(request, response){
   response.redirect("https://group-order.netlify.app");
 });
 
+app.get('/contact-prac', function(request, response){
+  response.redirect("contact-prac.html");
+});
+
 /*app.post('/sendMail', function(request, response){
   //doPost(request); // 리턴 받을 수 있으면 좋겠음... 아니면.. 그냥 코드를 넣는 방법도 있고..?
   doPostThank(request);
