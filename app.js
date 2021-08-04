@@ -223,9 +223,12 @@ app.get('/GroupOrder', function(request, response){
   response.redirect("https://group-order.netlify.app");
 });
 
-app.get('/contact-prac', function(request, response){
+app.get('/contact', function(request, response){
   //response.redirect("/contact-prac.html");
-  response.send("contact-prac.html");
+  //response.send("contact-prac.html");
+  fs.readFile(`html/contact`, 'utf8', function(err, description){
+    response.send(`${description}`);
+  });
 });
 
 /*app.post('/sendMail', function(request, response){
