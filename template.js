@@ -74,7 +74,7 @@ module.exports = {
     <link href="/css/details.css" rel="stylesheet"-->
 
     <!-- Core Item New Css-->
-    <link rel="stylesheet" href="assets/css/coreitem.css" />
+    <link rel="stylesheet" href="/css/coreitem.css" />
 
 <!--
     
