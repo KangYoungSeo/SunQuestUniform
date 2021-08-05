@@ -237,8 +237,8 @@ app.get('/Accessories-Men', function(request, response){
   });
 });*/
 
-app.get('/contact', function(request, response){
-  fs.readFile(`html/contact`, 'utf8', function(err, description){
+app.get('/GroupOrder', function(request, response){
+  fs.readFile(`html/GroupOrder`, 'utf8', function(err, description){
     response.send(`${description}`);
   });
 });
