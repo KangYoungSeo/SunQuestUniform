@@ -12,11 +12,19 @@
 <body>
     <div class="emboridery-left">
         <div>
-            <div class="emboridery-image">IMAGE</div>
+            <img src="assets/img/sunqeust-product/Logover.png" class="emboridery-image" id="embroidery-Image">
+            <script type="text/javascript">
+                function changeImgLeft(){
+                    document.getElementById("embroidery-Image").src="assets/img/sunqeust-product/Logover.png";
+                }
+                function changeImgRight(){
+                    document.getElementById("embroidery-Image").src="assets/img/sunqeust-product/Logoright.png";
+                }
+            </script>
             <BR>
             <CENTER>
-                <a href="#" class="myButton">LEFT SIDE</a>
-                <a href="#" class="myButton">RIGHT SIDE</a>
+                <a href="#" class="myButton" onclick="changeImgLeft()">LEFT SIDE</a>
+                <a href="#" class="myButton" onclick="changeImgRight()">RIGHT SIDE</a>
             </CENTER>
 
         </div>
@@ -27,67 +35,39 @@
 
 
     <div class="emboridery-right">
-        <div>
-            <!------------------------------------------------------------->
-                        <style>
-                            select {
-                                width: 200px;
-                                padding: .8em .5em;
-                                border: 1px solid #999;
-                                font-family: inherit;
-                                background: url('assets/img/icon/arrow.jpeg')
-                                no-repeat 95% 50%;
-                                border-radius: 0px;
-                                -webkit-appearance: none;
-                                -moz-appearance: none;
-                                appearance: none;
-                                }
-                        </style>
-            <!------------------------------------------------------------->
-
+        <div class="contect-box" >
             <div class="select form">
-                font style<br>
+                <h4>font style<h4>
                 <form>
-                    <select name="font">
-                        <option value="1">font1</option>
-                        <option value="1">font2</option>
-                        <option value="1">font3</option>
-                        <option value="1">font4</option>
-                        <option value="1">font5</option>
-                        <option value="1">font6</option>
-                        <option value="1">font7</option>
-                        <option value="1">font8</option>
-                        <option value="1">font9</option>
-                        <option value="1">font10</option>
+                    <select name="font" style="background-image: url('assets/img/icon/arrow.jpeg')">
+                        <option value="1">Sans Serif</option>
+                        <option value="1">Serif</option>
+                        <option value="1">Comic Sans MS</option>
+                        <option value="1">Garamond</option>
+                        <option value="1">Georgia</option>
+                        <option value="1">Tahoma</option>
+                        <option value="1">Trebuchet MS</option>
+                        <option value="1">Verdana</option>
                     </select>
                 </form>
             </div>
-            <br>
             <div>
-                font color<br>
+                <h4>font color<h4>
                 <form>
                     <input type="color" "value=#00BFFF">
                 </form>
             </div>
-            <br>
-            <div >
-                text placement<br>
+            <div>
+                <h4>text placement<h4>
                 <form>
-                    <select name="where">
+                    <select name="where"  style="background-image: url('assets/img/icon/arrow.jpeg')">
                         <option value="1">left chest</option>
-                        <option value="1">font2</option>
-                        <option value="1">font3</option>
-                        <option value="1">font4</option>
-                        <option value="1">font5</option>
-                        <option value="1">font6</option>
-                        <option value="1">font7</option>
-                        <option value="1">font8</option>
-                        <option value="1">font9</option>
-                        <option value="1">font10</option>
+                        <option value="1">right chest</option>
+                        <option value="1">left pocket</option>
+                        <option value="1">right pocket</option>
                     </select>
                 </form>
             </div>
-            <br>
             <div class="filebox">
                 <label for="ex_file">Embroidery - Logo(upload design)</label>
                 <input type="file" id="ex_file">
@@ -95,7 +75,7 @@
             <br>
             
             <div class="form__group field">
-              <input type="input" class="form__field" placeholder="Text2" name="name" id='name' required />
+              <input type="input" class="form__field" placeholder="Text2" name="name" id='name' required  />
               <label for="name" class="form__label"></label>
             </div><br>
             <input type="input" class="form__field" placeholder="Text3" name="name" id='name' required />
@@ -103,7 +83,6 @@
 
             <div>
             
-            </div>
         </div>        
 
     </div>

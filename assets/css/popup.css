@@ -15,9 +15,10 @@
 }
 
 .emboridery-image{
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width:250px;
-	height:400px;
-	background-color:lightgrey;
+	height:350px;
 }
 
 .where {
@@ -29,7 +30,7 @@
   font-family: verdana;
   font-style: italic;
 } 
-.myButton {
+.myButton { /*Left Button & Right Button*/
 	box-shadow:inset -2px -1px 0px -50px #ffffff;
 	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
 	background-color:#ffffff;
@@ -53,7 +54,7 @@
 	top:1px;
 }
 
-.myButton2 {
+.myButton2 {  /* Cancle Button / Apply Embriodery Button*/
 	box-shadow:inset -2px -1px 0px -50px #ffffff;
 	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
 	background-color:#ffffff;
@@ -75,6 +76,45 @@
 .myButton2:active {
 	position:relative;
 	top:1px;
+}
+
+
+.contect-box select{
+	width: 200px;
+    padding: .8em .5em;
+    border: 1px solid #999;
+    font-family: inherit;
+    background: url('/img/icon/arrow.jpeg')
+    no-repeat 95% 50%;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/*filebox*/
+.filebox label { 
+	display: inline-block;
+	padding: .5em .75em; 
+	color: #black; 
+	font-size: inherit; 
+	line-height: normal; 
+	vertical-align: middle; 
+	background-color: #b0d788; 
+	cursor: pointer; 
+	border: 1px solid #ebebeb; 
+	border-bottom-color: #e2e2e2; 
+	border-radius: .25em; 
+	} 
+.filebox input[type="file"] { /* 파일 필드 숨기기 */ 
+	position: absolute; 
+	width: 1px; 
+	height: 1px; 
+	padding: 0; 
+	margin: -1px; 
+	overflow: hidden; 
+	clip:rect(0,0,0,0); 
+	border: 0; 
 }
 
 
