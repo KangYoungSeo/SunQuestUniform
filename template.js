@@ -73,6 +73,9 @@ module.exports = {
     <link rel="stylesheet" href="/css/slick-theme.css">
     <link href="/css/details.css" rel="stylesheet"-->
 
+    <!-- Core Item New Css-->
+    <link rel="stylesheet" href="assets/css/coreitem.css" />
+
 <!--
     
 TemplateMo 559 Zay Shop

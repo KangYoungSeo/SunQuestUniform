@@ -77,211 +77,100 @@
     <!-- End Banner Hero -->
 
     <!-- Core Items Begin -->
-    <section class="new-product-area section-padding30">
-        <div class="container">          
-            <!-- Section title -->
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section-tittle mb-70">
-                        <h2><center>Core Items</center></h2>
-                    </div>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
 
-            <div class="row featured__filter">
-                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
-                    <div class="featured__item">
-                        <a href="/shop-single">
-                            
-                            <div class="featured__item__text">
-                                <h3>Women's Scrub</h3>
-                            </div>
-                        <div class="featured__item__pic set-bg" data-setbg="/img/gallery/new_product1.png">
-                            <!--ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul-->
-                            <img src="/img/gallery/new_product1.png" alt="">
-                        </div>
-                        <div class="featured__item__text">
-                            <h6>Crab Pool Security</h6>
-                            <h5>$30.00</h5>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
-                    <div class="featured__item">
-                        <a href="shop-single.html">
-                            <div class="featured__item__text">
-                                <h3>Men's Scrub</h3>
-                            </div>
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
-                            
-                            <img src="/img/gallery/new_product2.png" alt="">
-                        </div>
-                        <div class="featured__item__text">
-                            <h6>Crab Pool Security</h6>
-                            <h5>$30.00</h5>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
-                    <div class="featured__item">
-                        <a href="shop-single.html">
-                            <div class="featured__item__text">
-                                <h3>Lab Coats</h3>
-                            </div>
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">                           
-                            <img src="/img/gallery/new_product3.png" alt="">
-                        </div>
-                        <div class="featured__item__text">
-                            <h6>Crab Pool Security</h6>
-                            <h5>$30.00</h5>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
-                    <div class="featured__item">
-                        <a href="shop-single.html">
-                            <div class="featured__item__text">
-                                <h3>Accessories</h3>
-                            </div>
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">                           
-                            <img src="/img/gallery/new_product1.png" alt="">
-                        </div>
-                        <div class="featured__item__text">
-                            <h6>Crab Pool Security</h6>
-                            <h5>$30.00</h5>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!-- Core Items End -->
+ <html>
+ <link rel="stylesheet" href="/css/details2.css">
 
-    <!--? Popular Items Start -->
-    <div class="popular-items section-padding30">
-        <div class="container">
-            <!-- Section tittle -->
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-8 col-md-10">
-                    <div class="section-tittle mb-70 text-center">
-                        <h2>Popular Items</h2>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-popular-items mb-50 text-center">
-                        <div class="popular-img">
-                            <img src="/img/gallery/popular1.png" alt="">
-                            <div class="img-cap">
-                                <span>Add to cart</span>
-                            </div>
-                            <div class="favorit-items">
-                                <span class="flaticon-heart"></span>
-                            </div>
-                        </div>
-                        <div class="popular-caption">
-                            <h3><a href="shop-single.html">Thermo Ball Etip Gloves</a></h3>
-                            <span>$ 45,743</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-popular-items mb-50 text-center">
-                        <div class="popular-img">
-                            <img src="/img/gallery/popular2.png" alt="">
-                            <div class="img-cap">
-                                <span>Add to cart</span>
-                            </div>
-                            <div class="favorit-items">
-                                <span class="flaticon-heart"></span>
-                            </div>
-                        </div>
-                        <div class="popular-caption">
-                            <h3><a href="shop-single.html">Thermo Ball Etip Gloves</a></h3>
-                            <span>$ 45,743</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-popular-items mb-50 text-center">
-                        <div class="popular-img">
-                            <img src="/img/gallery/popular3.png" alt="">
-                            <div class="img-cap">
-                                <span>Add to cart</span>
-                            </div>
-                            <div class="favorit-items">
-                                <span class="flaticon-heart"></span>
-                            </div>
-                        </div>
-                        <div class="popular-caption">
-                            <h3><a href="shop-single.html">Thermo Ball Etip Gloves</a></h3>
-                            <span>$ 45,743</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-popular-items mb-50 text-center">
-                        <div class="popular-img">
-                            <img src="/img/gallery/popular4.png" alt="">
-                            <div class="img-cap">
-                                <span>Add to cart</span>
-                            </div>
-                            <div class="favorit-items">
-                                <span class="flaticon-heart"></span>
-                            </div>
-                        </div>
-                        <div class="popular-caption">
-                            <h3><a href="shop-single.html">Thermo Ball Etip Gloves</a></h3>
-                            <span>$ 45,743</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-popular-items mb-50 text-center">
-                        <div class="popular-img">
-                            <img src="/img/gallery/popular5.png" alt="">
-                            <div class="img-cap">
-                                <span>Add to cart</span>
-                            </div>
-                            <div class="favorit-items">
-                                <span class="flaticon-heart"></span>
-                            </div>
-                        </div>
-                        <div class="popular-caption">
-                            <h3><a href="shop-single.html">Thermo Ball Etip Gloves</a></h3>
-                            <span>$ 45,743</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-popular-items mb-50 text-center">
-                        <div class="popular-img">
-                            <img src="/img/gallery/popular6.png" alt="">
-                            <div class="img-cap">
-                                <span>Add to cart</span>
-                            </div>
-                            <div class="favorit-items">
-                                <span class="flaticon-heart"></span>
-                            </div>
-                        </div>
-                        <div class="popular-caption">
-                            <h3><a href="shop-single.html">Thermo Ball Etip Gloves</a></h3>
-                            <span>$ 45,743</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div style="padding-top: 100px">
+    <center>
+        <h1><b>Core Items</b></h1>
+        <br><Br><br>
+        <div class="main_1 main_common" style="background-image: url(assets/img/sunqeust-product/top1.png)">
+            <br><br>
+            <h3>Women's Scrub Top</h3><Br>
+             -Buttery Soft Hand feel<br>
+             -Keep you Comfortable<br>
+             -Stretch Texture fabric<br>
+             -Easy Wash and Care<br>
+             -Advance Fit & design<br>
         </div>
-    </div>
+
+        <div class="main_2 main_common" style="background-image: url(assets/img/sunqeust-product/top2.png)">
+            <br><br>
+            <h3>Women's Scrub Pants</h3><Br>
+             -Keep you Comfortable<br>
+             -Super Soft Hand fee<br>
+             -Extra Stretch fabric<br>
+             -Mid-Rise<br>
+             -Easy Wash and Care<br>
+
+        </div>
+
+        <div class="main_3 main_common " style="background-image: url(assets/img/sunqeust-product/bottom1.png)">
+            <br><br>
+            <h3>Men's Scrub Top</h3><Br>
+            -Silky Soft Hand feel<br>
+            -Extra Comfortable<br>
+            -Plenty of Stretch<br>
+            -Easy Wash and Care<br><br>
+        </div>
+
+        <div class="main_4 main_common" style="background-image: url(assets/img/sunqeust-product/bottom2.png)">
+            <br><br>
+            <h3>Men's Scrub Pants</h3><Br>
+            -Super Comfortable<br>
+            -Extra Soft Hand feel<br>
+            -optimal Stretch<br>
+            -Mid-Rise<br>
+            -Easy Wash and Care<br>
+        </div>
+    </center>
+</div>
+
+<!--Popular Items Start-->
+<div style="padding-bottom: 100px">
+    <center>
+        <br><br><br><br><br>
+        <h1><b>Popular Items</b></h1>
+        <br><br><br>
+        <div class="popularitem">
+            <div>
+                <h3>Men's Scrub</h3>
+                <img src="/img/sunqeust-product/top1.png" width ="300px" height="310px">
+            </div>
+            <h6>Crab Pool Security</h6>
+            <h5>$30.00</h5>
+        </div>
+
+        <div class="popularitem">
+            <div>
+                <h3>Men's Scrub</h3>
+                <img src="/img/sunqeust-product/top2.png" width ="300px" height="310px">
+            </div>
+            <h6>Crab Pool Security</h6>
+            <h5>$30.00</h5>
+        </div>
+
+        <div class="popularitem">
+            <div>
+                <h3>Men's Scrub</h3>
+                <img src="/img/sunqeust-product/bottom1.png" width ="300px" height="310px">
+            </div>
+            <h6>Crab Pool Security</h6>
+            <h5>$30.00</h5>
+        </div>
+
+        <div class="popularitem">
+            <div>
+                <h3>Men's Scrub</h3>
+                <img src="/img/sunqeust-product/bottom2.png" width ="300px" height="310px">
+            </div>
+            <h6>Crab Pool Security</h6>
+            <h5>$30.00</h5>
+        </div>
+    </center>
+</div>
+</html>
     <!-- Popular Items End -->
