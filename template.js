@@ -122,7 +122,7 @@ https://templatemo.com/tm-559-zay-shop
                 <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                     ${TopMenu}
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">Group Order</a>
+                        <a class="nav-link" href="/GroupOrder">Group Order</a>
                     </li>
                 </ul>
             </div>
@@ -199,7 +199,7 @@ https://templatemo.com/tm-559-zay-shop
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@styleciti.com">CS@cloveruniforms.com</a>
+                            <a class="text-decoration-none" href="mailto:CS@cloveruniforms.com">CS@cloveruniforms.com</a>
                         </li>
                         <li>
                             <a class="text-decoration-none" href="/about">About us</a>
@@ -228,7 +228,7 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">More Info</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="shipping-and-handling.html">Shipping and Handling</a></li>
+                        <li><a class="text-decoration-none" href="/shipping-and-handling">Shipping and Handling</a></li>
                         <li><a class="text-decoration-none" href="#">######</a></li>
                         <li><a class="text-decoration-none" href="#">######</a></li>
                         <li><a class="text-decoration-none" href="#">######</a></li>
