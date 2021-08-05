@@ -261,7 +261,7 @@
 
                             <!--<input type="file" name="file" id="imageFileOpenInput" accept="image/*">
                             -->
-			<div class="filebox">
+			            <div class="filebox">
                             <label for="ex_file">Embroidery - Logo(upload design)</label>
                             <input type="file" id="ex_file">
                         </div>
