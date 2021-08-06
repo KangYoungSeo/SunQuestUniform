@@ -8,7 +8,7 @@
             }
         }
 
-        xhttp.open("GET","/women-patientgowns-json", true);
+        xhttp.open("GET","https://www.cloveruniforms.com/women-patientgowns-json", true);
         xhttp.send();
         let json;
         
@@ -21,7 +21,7 @@ function jsonfunc( jsonText ) {
                 txt += json[i].PATH;
                 txt += "\" alt=\"\"><div class=\"icon\"><i class=\"icon_heart_alt\"></i></div><ul>";
                 txt += "<li class=\"w-icon active\"><a href=\"#\"><i class=\"icon_bag_alt\"></i></a></li>";
-                txt += "<li class=\"quick-view\"><a href=\"/shop-single?id=" +json[i].P_ID;
+                txt += "<li class=\"quick-view\"><a href=\"https://www.cloveruniforms.com/shop-single?id=" +json[i].P_ID;
                 txt += "\">+ Quick View</a></li>";
                 txt += "<li class=\"w-icon\"><a href=\"#\"><i class=\"fa fa-random\"></i></a></li>";
                 txt += "</ul></div><div class=\"pi-text\"><div class=\"catagory-name\">";
@@ -72,7 +72,7 @@ function jsonfunc( jsonText ) {
                         txt += json[i].PATH;
                         txt += "\" alt=\"\"><div class=\"icon\"><i class=\"icon_heart_alt\"></i></div><ul>";
                         txt += "<li class=\"w-icon active\"><a href=\"#\"><i class=\"icon_bag_alt\"></i></a></li>";
-                        txt += "<li class=\"quick-view\"><a href=\"/shop-single?id=" +json[i].P_ID;
+                        txt += "<li class=\"quick-view\"><a href=\"https://www.cloveruniforms.com/shop-single?id=" +json[i].P_ID;
                         txt += "\">+ Quick View</a></li>";
                         txt += "<li class=\"w-icon\"><a href=\"#\"><i class=\"fa fa-random\"></i></a></li>";
                         txt += "</ul></div><div class=\"pi-text\"><div class=\"catagory-name\">";
