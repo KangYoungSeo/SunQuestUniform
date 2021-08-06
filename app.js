@@ -426,5 +426,10 @@ app.get('/google397fc672960e0b85.html', function(request, response){
   });
 });
 
+app.get('/naver843dc5059568d63fc61c4bd52c54630e.html', function(request, response){
+  fs.readFile(`naver843dc5059568d63fc61c4bd52c54630e.html`, 'utf8', function(err, description){
+    response.send(`${description}`);
+  });
+});
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
