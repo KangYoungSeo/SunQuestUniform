@@ -12,7 +12,6 @@ module.exports = {
     <meta property="og:type" content="website"> 
     <meta property="og:title" content="clover uniforms">
     <meta property="og:description" content="clover uniforms">
-    <meta property="og:image" content="https://www.cloveruniforms.com/assets/img/icon/Clover.png">
     <meta property="og:url" content="https://www.cloveruniforms.com">
 
     <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />

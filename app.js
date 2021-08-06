@@ -420,10 +420,4 @@ app.get('/robots.txt', function(request, response){
   });
 });
 
-app.get('https://www.cloveruniforms.com/assets/img/icon/Clover.png', function(request, response){
-  fs.readFile(`/img/icon/Clover.png`, 'utf8', function(err, description){
-    response.send(`${description}`);
-  });
-});
-
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
