@@ -105,8 +105,8 @@
                         <ul class="filter-catagories">
                             <li><a href="/Womens-Scrubs">Scrubs</a></li>
                             <li><a href="/Womens-LabCoats">Lab Coats</a></li>
-                            <li><a href="/Womens-OtherApparel">Other Apparel</a></li>
-                            <li><a href="/Womens-PatientGowns" style="color: #FD86A4">Patient Gowns</a></li>
+                            <li><a href="/Womens-OtherApparel" style="color: #FD86A4">Other Apparel</a></li>
+                            <li><a href="/Womens-PatientGowns">Patient Gowns</a></li>
                         </ul>
                     </div>
 
