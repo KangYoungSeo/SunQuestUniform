@@ -420,8 +420,8 @@ app.get('/robots.txt', function(request, response){
   });
 });
 
-app.get('/google397fc672960e0b85.xml', function(request, response){
-  fs.readFile(`google397fc672960e0b85.xml`, 'utf8', function(err, description){
+app.get('/google397fc672960e0b85.html', function(request, response){
+  fs.readFile(`google397fc672960e0b85.html`, 'utf8', function(err, description){
     response.send(`${description}`);
   });
 });
