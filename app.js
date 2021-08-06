@@ -30,7 +30,7 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
   //fs.readdir('./html', function(error, filelist){
     //var filteredId = path.parse(request.params.pageId).base; // queryData.id
     fs.readFile(`html/Main`, 'utf8', function(err, description){
-      var title = "Home"; //queryData.id;       
+      var title = ""; //queryData.id;       
       var topMenu = `<li class="nav-item">
       <a class="nav-link" href="/Womens-Scrubs">Womens</a>
   </li>
@@ -50,7 +50,7 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
 
 app.get('/Womens-Scrubs', function(request, response){   
   fs.readFile(`html/Womens-Scrubs`, 'utf8', function(err, description){     
-    var title = "Womens-Scrubs";
+    var title = " - Womens-Scrubs";
     var topMenu = `<li class="nav-item">
       <a class="nav-link" href="/Womens-Scrubs" style="color: #FD86A4">Womens</a>
   </li>
@@ -67,7 +67,7 @@ app.get('/Womens-Scrubs', function(request, response){
 
 app.get('/Womens-PatientGowns', function(request, response){   
   fs.readFile(`html/Womens-PatientGowns`, 'utf8', function(err, description){     
-    var title = "Womens-PatientGowns";
+    var title = " - Womens-PatientGowns";
     var topMenu = `<li class="nav-item">
       <a class="nav-link" href="/Womens-Scrubs" style="color: #FD86A4">Womens</a>
   </li>
@@ -84,7 +84,7 @@ app.get('/Womens-PatientGowns', function(request, response){
 
 app.get('/Womens-OtherApparel', function(request, response){   
   fs.readFile(`html/Womens-OtherApparel`, 'utf8', function(err, description){     
-    var title = "Womens-OtherApparel";
+    var title = " - Womens-OtherApparel";
     var topMenu = `<li class="nav-item">
       <a class="nav-link" href="/Womens-Scrubs" style="color: #FD86A4">Womens</a>
   </li>
@@ -101,7 +101,7 @@ app.get('/Womens-OtherApparel', function(request, response){
 
 app.get('/Womens-LabCoats', function(request, response){   
   fs.readFile(`html/Womens-LabCoats`, 'utf8', function(err, description){     
-    var title = "Womens-LabCoats";
+    var title = " - Womens-LabCoats";
     var topMenu = `<li class="nav-item">
       <a class="nav-link" href="/Womens-Scrubs" style="color: #FD86A4">Womens</a>
   </li>
@@ -119,7 +119,7 @@ app.get('/Womens-LabCoats', function(request, response){
 
 app.get('/Mens-Scrubs', function(request, response){   
   fs.readFile(`html/Mens-Scrubs`, 'utf8', function(err, description){     
-    var title = "Mens-Scrubs";
+    var title = " - Mens-Scrubs";
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -136,7 +136,7 @@ app.get('/Mens-Scrubs', function(request, response){
 
 app.get('/Mens-PatientGowns', function(request, response){   
   fs.readFile(`html/Mens-PatientGowns`, 'utf8', function(err, description){     
-    var title = "Mens-PatientGowns";
+    var title = " - Mens-PatientGowns";
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -153,7 +153,7 @@ app.get('/Mens-PatientGowns', function(request, response){
 
 app.get('/Mens-OtherApparel', function(request, response){   
   fs.readFile(`html/Mens-OtherApparel`, 'utf8', function(err, description){     
-    var title = "Mens-OtherApparel";
+    var title = " - Mens-OtherApparel";
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -170,7 +170,7 @@ app.get('/Mens-OtherApparel', function(request, response){
 
 app.get('/Mens-LabCoats', function(request, response){   
   fs.readFile(`html/Mens-LabCoats`, 'utf8', function(err, description){     
-    var title = "Mens-LabCoats";
+    var title = " - Mens-LabCoats";
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -187,7 +187,7 @@ app.get('/Mens-LabCoats', function(request, response){
 
 app.get('/Accessories-Women', function(request, response){   
   fs.readFile(`html/Accessories-Women`, 'utf8', function(err, description){     
-    var title = "Accessories-Women";
+    var title = " - Accessories-Women";
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -204,7 +204,7 @@ app.get('/Accessories-Women', function(request, response){
 
 app.get('/Accessories-Men', function(request, response){   
   fs.readFile(`html/Accessories-Men`, 'utf8', function(err, description){     
-    var title = "Accessories-Men";
+    var title = " - Accessories-Men";
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -251,7 +251,7 @@ app.get('/shop-single', function(request, response){
 
 app.get('/shopping-cart', function(request, response){
   fs.readFile(`html/shopping-cart`, 'utf8', function(err, description){
-    var title = "Shopping-Cart";        
+    var title = " - Shopping-Cart";        
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -274,7 +274,7 @@ app.get('/shop-single-popup', function(request, response){
 
 app.get('/shipping-and-handling', function(request, response){
   fs.readFile(`html/shipping-and-handling`, 'utf8', function(err, description){
-    var title = "shipping-and-handling";       
+    var title = " - shipping-and-handling";       
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -291,7 +291,7 @@ app.get('/shipping-and-handling', function(request, response){
 
 app.get('/login', function(request, response){
   fs.readFile(`html/login`, 'utf8', function(err, description){
-    var title = "Login";        
+    var title = " - Login";        
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -308,7 +308,7 @@ app.get('/login', function(request, response){
 
 app.get('/forget-your-id', function(request, response){
   fs.readFile(`html/forget-your-id`, 'utf8', function(err, description){
-    var title = "Login";        
+    var title = " - Login";        
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -325,7 +325,7 @@ app.get('/forget-your-id', function(request, response){
 
 app.get('/forget-your-pw', function(request, response){
   fs.readFile(`html/forget-your-pw`, 'utf8', function(err, description){
-    var title = "Login";        
+    var title = " - Login";        
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -342,7 +342,7 @@ app.get('/forget-your-pw', function(request, response){
 
 app.get('/register', function(request, response){
   fs.readFile(`html/register`, 'utf8', function(err, description){
-    var title = "Register";        
+    var title = " - Register";        
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -359,7 +359,7 @@ app.get('/register', function(request, response){
 
 app.get('/about', function(request, response){ 
   fs.readFile(`html/about`, 'utf8', function(err, description){
-    var title = "About Us";        
+    var title = " - About Us";        
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -376,7 +376,7 @@ app.get('/about', function(request, response){
 
 app.get('/term-and-policy', function(request, response){
   fs.readFile(`html/term-and-policy`, 'utf8', function(err, description){
-    var title = "Term & Policy";     
+    var title = " - Term & Policy";     
     var topMenu = `<li class="nav-item">
     <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -393,7 +393,7 @@ app.get('/term-and-policy', function(request, response){
 
 app.get('/faqs', function(request, response){ 
 fs.readFile(`html/faqs`, 'utf8', function(err, description){
-  var title = "FAQs";        
+  var title = " - FAQs";        
   var topMenu = `<li class="nav-item">
   <a class="nav-link" href="/Womens-Scrubs">Womens</a>
 </li>
@@ -416,6 +416,12 @@ app.get('/sitemap.xml', function(request, response){
 
 app.get('/robots.txt', function(request, response){
   fs.readFile(`robots.txt`, 'utf8', function(err, description){
+    response.send(`${description}`);
+  });
+});
+
+app.get('https://www.cloveruniforms.com/assets/img/icon/Clover.png', function(request, response){
+  fs.readFile(`assets/img/icon/Clover.png`, 'utf8', function(err, description){
     response.send(`${description}`);
   });
 });

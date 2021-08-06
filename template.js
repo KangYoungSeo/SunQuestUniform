@@ -4,9 +4,17 @@ module.exports = {
 <html lang="en">
 
 <head>
-    <title>Clover Uniform - ${title}</title>
+    <title>Clover Uniform${title}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="clover uniforms">
+
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="clover uniforms">
+    <meta property="og:description" content="clover uniforms">
+    <meta property="og:image" content="https://www.cloveruniforms.com/assets/img/icon/Clover.png">
+    <meta property="og:url" content="https://www.cloveruniforms.com">
+
     <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />
 
     <link rel="apple-touch-icon" href="/img/apple-icon.png" />
