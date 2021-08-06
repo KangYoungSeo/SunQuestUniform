@@ -414,5 +414,10 @@ app.get('/sitemap.xml', function(request, response){
   });
 });
 
+app.get('/robots.txt', function(request, response){
+  fs.readFile(`robots.txt`, 'utf8', function(err, description){
+    response.send(`${description}`);
+  });
+});
 
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
