@@ -501,4 +501,138 @@ app.get('/main-json', function(req, res, next) {
 
 });
 
+
+
+//Womes-----------------------------------------------------
+
+//Women-scrubs-json
+app.get('/women-scrubs-json', function(req, res, next) {
+  
+  //var jsoninit;
+
+  // query
+  connection.query(listsql + 'P_CAT=\'SC\' and SEX = \'W\'' + datesortsql ,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+
+
+///women-labcoat-json
+app.get('/women-labcoat-json', function(req, res, next) {
+  
+  // query
+  connection.query(listsql + 'P_CAT=\'LC\' and SEX = \'W\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+///women-patientgowns-json
+app.get('/women-patientgowns-json', function(req, res, next) {
+  
+  // query
+  connection.query(listsql + 'P_CAT=\'PG\' and SEX = \'W\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+///women-otherapparel-json
+app.get('/women-otherapparel-json', function(req, res, next) {
+
+  // query
+  connection.query(listsql + 'P_CAT=\'OA\' and SEX = \'W\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+
+
+
+
+
+//Mens---------------------------------------------------
+
+//men-scrubs-json
+app.get('/men-scrubs-json', function(req, res, next) {
+  // query
+  connection.query(listsql + 'P_CAT=\'SC\' and SEX = \'M\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+
+
+///men-labcoat-json
+app.get('/men-labcoat-json', function(req, res, next) {
+  
+  // query
+  connection.query(listsql + 'P_CAT=\'LC\' and SEX = \'M\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+///men-patientgowns-json
+app.get('/men-patientgowns-json', function(req, res, next) {
+  
+  // query
+  connection.query(listsql + 'P_CAT=\'PG\' and SEX = \'M\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+///men-otherapparel-json
+app.get('/men-otherapparel-json', function(req, res, next) {
+  
+  // query
+  connection.query(listsql + 'P_CAT=\'OA\' and SEX = \'M\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+
+
+
+
+
+//Accessories------------------------------------------------
+///men-accessories-json
+app.get('/men-accessories-json', function(req, res, next) {
+  
+  // query
+  connection.query(listsql + 'P_CAT=\'ACC\' and SEX = \'M\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+///women-accessories-json
+app.get('/women-accessories-json', function(req, res, next) {
+  
+  // query
+  connection.query(listsql + 'P_CAT=\'ACC\' and SEX = \'W\'' + datesortsql,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+      res.send(rows);
+  });
+});
+
+
+
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
