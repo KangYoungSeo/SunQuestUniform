@@ -432,4 +432,73 @@ app.get('/naver843dc5059568d63fc61c4bd52c54630e.html', function(request, respons
   });
 });
 
+//-------------------------------------------------------------------------------------------------------
+//JSON 추가 소스코드 입니다\
+
+//DB connection
+var mysql = require('mysql');
+
+const { resolveSoa } = require('dns');
+const { Router } = require('express');
+var connection = mysql.createConnection({
+  host: "us-cdbr-east-04.cleardb.com",
+  user: "b5f5777ab367c8",
+  password: "c9e41b17",
+  database: "heroku_42867c75216b761"
+});
+
+//check connection 
+connection.connect(function(err){
+  if(err) { console.log('Disconnected');throw err;}
+  console.log('Connected');
+})
+
+
+
+
+//list page base query
+var listsql = 'select P_ID, LCH_DATE, P_NAME, PRICE, SORT, PATH from product where ';
+var colorsql = 'select color from color where';
+var sizesql = 'select size from size where';
+var datesortsql = 'order by LCH_DATE desc';
+
+
+
+
+//---------------------------------------------------------------------------------------------------
+//Main page json
+app.get('/main-json', function(req, res, next) {
+
+  //example for~~~
+  var rows = [
+    {"P_ID":3,"LCH_DATE":"2021-08-04T15:00:00.000Z",
+    "P_NAME":"Women's Scrubs Pants",
+    "PRICE":30,
+    "SORT":"BOTTOM",
+    "COLOR":"Black",
+    "PATH":"/img/sunqeust-product/bottom1.png"}
+  ,{"P_ID":1,
+  "LCH_DATE":"2021-08-03T15:00:00.000Z"
+  ,"P_NAME":"Women's Scrubs Top"
+  ,"PRICE":30,"SORT":"TOP"
+  ,"COLOR":"Black"
+  ,"PATH":"/img/sunqeust-product/top1.png"},
+  {"P_ID":3,"LCH_DATE":"2021-08-04T15:00:00.000Z",
+    "P_NAME":"Women's Scrubs Pants",
+    "PRICE":30,
+    "SORT":"BOTTOM",
+    "COLOR":"Black",
+    "PATH":"/img/sunqeust-product/bottom1.png"}
+  ,{"P_ID":1,
+  "LCH_DATE":"2021-08-03T15:00:00.000Z"
+  ,"P_NAME":"Women's Scrubs Top"
+  ,"PRICE":30,"SORT":"TOP"
+  ,"COLOR":"Black"
+  ,"PATH":"/img/sunqeust-product/top1.png"}
+];
+
+  res.send(rows);
+
+});
+
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
