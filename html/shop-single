@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Zay Shop - Product Detail Page</title>
+    <title>Clover Uniforms - Product Detail Page</title>
 
 
 <!--변경 된 부분!!!!!!-->
@@ -25,9 +25,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />
 
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/icon/clov-16.ico" />
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/templatemo.css">

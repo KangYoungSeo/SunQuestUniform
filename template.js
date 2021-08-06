@@ -7,6 +7,7 @@ module.exports = {
     <title>Clover Uniform - ${title}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />
 
     <link rel="apple-touch-icon" href="/img/apple-icon.png" />
     <link rel="shortcut icon" href="/img/icon/clov-16.ico" />
