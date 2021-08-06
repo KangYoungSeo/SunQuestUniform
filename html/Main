@@ -86,6 +86,41 @@
  <html>
  <link rel="stylesheet" href="/css/details2.css">
 
+<script>
+
+        let xhttp = new XMLHttpRequest();
+        
+        xhttp.onreadystatechange = function () {
+            if(xhttp.readyState == 4 && xhttp.status == 200){
+                jsonfunc(this.responseText); //this = xhttp
+            }
+        }
+        
+            xhttp.open("GET","http://localhost:3000/main-json", true);
+            xhttp.send();
+            let json;
+            function jsonfunc( jsonText ) {
+        
+                let json = JSON.parse(jsonText); 
+        
+                let txt = "";
+                for(i=0; i<json.length; i++){
+                    txt += "<div class=\"popularitem\"><div><h3>";
+                    txt += json[i].P_NAME;
+                    txt += "</h3><img src=\""+ json[i].PATH;
+                    txt += "\" width =\"300px\" height=\"310px\"></div><h6>";
+                    txt += json[i].SORT;
+                    txt += "</h6><h5>$";
+                    txt += json[i].PRICE;
+                    txt += "</h5></div>"
+                }
+                //document.getElementById('test').innerHTML = 'test';
+                document.getElementById('list').innerHTML = txt;
+            }
+    </script>
+
+
+
 <div style="padding-top: 100px">
     <center>
         <h1><b>Core Items</b></h1>
@@ -132,48 +167,21 @@
     </center>
 </div>
 
+
 <!--Popular Items Start-->
 <div style="padding-bottom: 100px">
     <center>
-        <br><br><br><br><br>
-        <h1><b>Popular Items</b></h1>
-        <br><br><br>
-        <div class="popularitem">
-            <div>
-                <h3>Men's Scrub</h3>
-                <img src="/img/sunqeust-product/top1.png" width ="300px" height="310px">
-            </div>
-            <h6>Crab Pool Security</h6>
-            <h5>$30.00</h5>
-        </div>
-
-        <div class="popularitem">
-            <div>
-                <h3>Men's Scrub</h3>
-                <img src="/img/sunqeust-product/top2.png" width ="300px" height="310px">
-            </div>
-            <h6>Crab Pool Security</h6>
-            <h5>$30.00</h5>
-        </div>
-
-        <div class="popularitem">
-            <div>
-                <h3>Men's Scrub</h3>
-                <img src="/img/sunqeust-product/bottom1.png" width ="300px" height="310px">
-            </div>
-            <h6>Crab Pool Security</h6>
-            <h5>$30.00</h5>
-        </div>
-
-        <div class="popularitem">
-            <div>
-                <h3>Men's Scrub</h3>
-                <img src="/img/sunqeust-product/bottom2.png" width ="300px" height="310px">
-            </div>
-            <h6>Crab Pool Security</h6>
-            <h5>$30.00</h5>
+ 
+        <div style="padding-bottom: 100px">
+            
+                <br><br><br><br><br>
+                <h1><b>Popular Items</b></h1>
+                <br><br><br>
+                <div id = "list"></div>
+            
         </div>
     </center>
 </div>
+
 </html>
     <!-- Popular Items End -->
