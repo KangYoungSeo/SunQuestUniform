@@ -14,6 +14,8 @@ module.exports = {
     <meta property="og:description" content="clover uniforms">
     <meta property="og:url" content="https://www.cloveruniforms.com">
 
+    <link rel="canonical" href="https://www.cloveruniforms.com">
+
     <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />
 
     <link rel="apple-touch-icon" href="/img/apple-icon.png" />
