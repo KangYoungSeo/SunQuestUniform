@@ -70,26 +70,25 @@
 </head>
 
 <body>
-    <!-- Start Top Nav -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@styleciti.com">info@styleciti.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:212-730-2831">212-730-2831</a>
-                </div>
-                <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <!--a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a-->
-                </div>
+    <!--Top Nav-->
+<!-- Start Top Nav -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+    <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+            <div>
+                <i class="fa fa-envelope mx-2"></i>
+                <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:CS@cloveruniforms.com">CS@cloveruniforms.com</a>
+               <i class="fa fa-phone mx-2"></i>
+                <a class="navbar-sm-brand text-light text-decoration-none" href="tel:212-730-2831">212-730-2831</a>
+            </div>
+            <div>
+                <a href="/login"><img src="/img/icon/Login.png" width="20" height="20" vspace="1" hspace="2"></a>
+                <a href="/login" style="color: white">Login</a>
             </div>
         </div>
-    </nav>
-    <!-- Close Top Nav -->
+    </div>
+</nav>
+<!-- Close Top Nav -->
 
 
     <!-- Header -->
@@ -106,13 +105,13 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/womens-scrubs">Womens</a>
+                            <a class="nav-link" href="/Womens-Scrubs">Womens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/mens-scrubs">Mens</a>
+                            <a class="nav-link" href="/Mens-Scrubs">Mens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/accessories">Accessories</a>
+                            <a class="nav-link" href="/Accessories-Women">Accessories</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/GroupOrder">Group Order</a>
