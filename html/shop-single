@@ -50,11 +50,11 @@
     <link rel="stylesheet" href="/css/fontawesome.min.css">
 
     <!-- Slick -->
-    <link rel="stylesheet" type="text/css" href="/css/slick.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
+    <link rel="stylesheet" href="/css/slick.min.css"/>
+    <link rel="stylesheet" href="/css/slick-theme.css"/>
     <!--plus details-->
-    <link href="/css/details.css" rel="stylesheet">
-    <link href="/css/embroidery.css" rel="stylesheet">
+    <link href="/css/details.css" rel="stylesheet"/>
+    <link href="/css/embroidery.css" rel="stylesheet"/>
 
 <!--
     

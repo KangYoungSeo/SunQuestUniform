@@ -11,17 +11,16 @@ var qs = require('querystring');
 var bodyParser = require('body-parser');
 var ejs = require('ejs'); // html 랜더링
 
-//app.use(static(path.join(__dirname,'../assets')));  // ejs 불가능 
-//app.use(static(path.join(__dirname,'assets'))); // ejs 가능 
-//app.use('/contact', static(path.join(__dirname,'assets'))); // ejs 불가능 
-//app.use('/', express.static('assets')); // ejs 가능 
-app.use(express.static('assets')); // ejs 가능
+//app.use(static(path.join(__dirname,'../assets')));  // ejs impossible
+//app.use(static(path.join(__dirname,'assets'))); // ejs possible
+//app.use('/contact', static(path.join(__dirname,'assets'))); // ejs impossible
+//app.use('/', express.static('assets')); // ejs possible
+app.use(express.static('assets')); // ejs possible
 
 app.set("views", __dirname); // ejs 파일 가져올 폴더 지정(프로젝트명) 및 ejs 관련 설정
 app.set("view engine", "ejs");
 app.engine("ejs", ejs.renderFile);
-app.use(bodyParser.urlencoded({extend : false}));
-//app.use(bodyParser.urlencoded({ extended: false })); 
+app.use(bodyParser.urlencoded({extend : false})); 
 
 app.get('/', function(request, response){ // home으로 들어오면, 여기가 응답되도록 약속되어 있음. 
   // readdir은, data 디렉토리에 있는 파일들을 갖고 와서, 그것을 이용해서 파일을 구성. 
@@ -30,7 +29,7 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
   //fs.readdir('./html', function(error, filelist){
     //var filteredId = path.parse(request.params.pageId).base; // queryData.id
     fs.readFile(`html/Main`, 'utf8', function(err, description){
-      var title = ""; //queryData.id;       
+      var title = "";       
       var topMenu = `<li class="nav-item">
       <a class="nav-link" href="/Womens-Scrubs">Womens</a>
   </li>
@@ -219,23 +218,6 @@ app.get('/Accessories-Men', function(request, response){
   });
 });
 
-/*app.get('/GroupOrder', function(request, response){
-  //response.redirect("https://group-order.netlify.app");
-  fs.readFile(`html/GroupOrder`, 'utf8', function(err, description){     
-    var title = "GroupOrder";
-    var topMenu = `<li class="nav-item">
-    <a class="nav-link" href="/Womens-Scrubs">Womens</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="/Mens-Scrubs">Mens</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="/Accessories-Women" style="color: #FD86A4">Accessories</a>
-</li>`;
-    var html = template.HTML(title, topMenu, `${description}`);
-    response.send(html);
-  });
-});*/
 
 app.get('/GroupOrder', function(request, response){
   fs.readFile(`html/GroupOrder`, 'utf8', function(err, description){
