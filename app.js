@@ -408,4 +408,11 @@ fs.readFile(`html/faqs`, 'utf8', function(err, description){
 });
 });
 
+app.get('/sitemap.xml', function(request, response){
+  fs.readFile(`sitemap.xml`, 'utf8', function(err, description){
+    response.send(`${description}`);
+  });
+});
+
+
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
