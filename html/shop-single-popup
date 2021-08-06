@@ -7,10 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />
 
-        <link rel="stylesheet" href="/css/popup.css">
+    <link rel="stylesheet" href="/css/popup.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2G476EVC7Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2G476EVC7Q');
+</script>
 
 </head>
 <body>
+
     <div class="emboridery-left">
         <div>
             <img src="/img/sunqeust-product/Logover.png" class="emboridery-image" id="embroidery-Image">

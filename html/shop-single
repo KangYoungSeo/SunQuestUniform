@@ -26,6 +26,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2G476EVC7Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2G476EVC7Q');
+</script>
 
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
     <link rel="shortcut icon" href="/img/icon/clov-16.ico" />
@@ -58,6 +67,7 @@ https://templatemo.com/tm-559-zay-shop
 </head>
 
 <body>
+
     <!-- Start Top Nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
