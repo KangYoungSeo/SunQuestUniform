@@ -18,6 +18,7 @@ module.exports = {
 
     <meta name="naver-site-verification" content="96258b39aef8e2bc60d23e658329e679143fc7e1" />
     <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2G476EVC7Q"></script>
 <script>
