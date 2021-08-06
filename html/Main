@@ -82,12 +82,6 @@
 
     <!-- Core Items Begin -->
 
-<!DOCTYPE html>
-<html lang="en">
-
- <html>
- <link rel="stylesheet" href="/css/details2.css">
-
 <script>
 
         let xhttp = new XMLHttpRequest();
