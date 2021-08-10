@@ -617,4 +617,51 @@ app.get('/women-accessories-json', function(req, res, next) {
 
 
 
+//---------------------------------------------------------------------------------------------------
+//shop-single page json
+
+app.get('/product-json', (req, res) => {
+
+  var list = req.query;
+  console.log(list.id);
+  var getsql = 'select P_ID, P_CAT, P_NAME, P_DETAIL, FABRIC, CARE_INS, PRICE,SEX, PATH';
+  var option = ' from product where P_ID = ' + list.id;
+  connection.query(getsql + option ,
+  function (err, rows, fields) {
+    if (err) console.log('DB failed');
+    res.send(rows); 
+  });
+});
+
+
+
+
+
+
+/*
+app.get('/color-json', function(req, res, next) {
+
+  var getsql2 = 'select COLOR from color where P_ID = 11';
+  connection.query(getsql2,
+    function (err, rows, fields) {
+      if (err) console.log('DB failed');
+      res.send(rows); 
+  });
+});
+
+app.get('/size-json', function(req, res, next) {
+
+  var getsql2 = 'select size from size where P_ID = 1';
+  connection.query(getsql2,
+    function (err, rows, fields) {
+      if (err) console.log('DB failed');
+      res.send(rows); 
+  });
+});
+*/
+
+
+
+
+
 app.listen(process.env.PORT || port, () => console.log(`Example app listening`))
