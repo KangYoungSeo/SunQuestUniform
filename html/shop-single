@@ -2,11 +2,90 @@
 <html lang="en">
 
 <head>
-    <title>Clover Uniforms - Product Detail Page</title>
+    <title>Clover Uniform</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 
+    <!-- Start timezone-master-css index.html fonts -->
+    <link rel="stylesheet" href="assets/timezone-master-css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/flaticon.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/slicknav.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/animate.min.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/themify-icons.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/slick.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/nice-select.css">
+    <link rel="stylesheet" href="assets/timezone-master-css/style.css">
+    <!-- End timezone-master-css index.html fonts -->
+
+    <!--ogani-master CSS Start-->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="assets/ogani-master-css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/ogani-master-css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/ogani-master-css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="assets/ogani-master-css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="assets/ogani-master-css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/ogani-master-css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/ogani-master-css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/ogani-master-css/style.css" type="text/css">
+    <!--ogani-master CSS End-->
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/templatemo.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
+    <!--plus details-->
+    <link href="/css/details.css" rel="stylesheet">
+    <link href="/css/embroidery.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+
+
+        <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- Core Item New Css-->
+    <link rel="stylesheet" href="/css/circle-color.css" type="text/css">
+
+
+    <script src="/js/jquery-1.11.0.min.js"></script>
+    <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/templatemo.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="/js/color-index.js" charset="utf-8"></script>
+
+    <!-- End Script -->
+
+    <!-- Start Slider Script -->
+    <script src="/js/slick.min.js"></script>
 
 <!--변경 된 부분!!!!!!-->
-    <script>
+<script>
     function Edit(id) {
         window.location.href = "/userEdit?id=" + id;
     }
@@ -20,83 +99,43 @@
         var userid = document.getElementsByName('suserid')[0].value;
         window.location.href = "/?user=" + userid;;
     }
-    </script>
-<!-- 여기까지-->
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <meta name="naver-site-verification" content="96258b39aef8e2bc60d23e658329e679143fc7e1" />
-    <meta name="google-site-verification" content="THj3kvm66Y1HOBsOTUOWBWBsmP5n_puIfeBQWxNPyqg" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2G476EVC7Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2G476EVC7Q');
 </script>
-
-    <link rel="apple-touch-icon" href="/img/apple-icon.png">
-    <link rel="shortcut icon" href="/img/icon/clov-16.ico" />
-
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/templatemo.css">
-    <link rel="stylesheet" href="/css/custom.css">
-
-    <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="/css/fontawesome.min.css">
-
-    <!-- Slick -->
-    <link rel="stylesheet" href="/css/slick.min.css"/>
-    <link rel="stylesheet" href="/css/slick-theme.css"/>
-    <!--plus details-->
-    <link href="/css/details.css" rel="stylesheet"/>
-    <link href="/css/embroidery.css" rel="stylesheet"/>
-
-<!--
-    
-TemplateMo 559 Zay Shop
-
-https://templatemo.com/tm-559-zay-shop
-
--->
+<!-- 여기까지-->
 </head>
+</html>
+
+
+
+
 
 <body>
-
+    <!--Top Nav-->
     <!-- Start Top Nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
                 <div>
                     <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:CS@cloveruniforms.com">CS@cloveruniforms.com</a>
+                   <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:212-730-2831">212-730-2831</a>
                 </div>
                 <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                    <a href="login.html"><img src="/img/icon/Login.png" width="20" height="20" vspace="1" hspace="2"></a>
+                    <a href="login.html" style="color: white">Login</a>
                 </div>
             </div>
         </div>
     </nav>
-    <!-- Close Top Nav -->
+    <!-- Close Top Nav --><center> </center>
 
 
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
+        <div class="container 0d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                Zay
-            </a>
-
+            <a href="Main.html"><img src="/img/icon/Clover.png" width="200" height="40" vspace="20"><a/>
+            
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -105,20 +144,30 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Scrubs</a>
+                            <a class="nav-link" href="Womens-Scrubs.html">Womens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">lab coat</a>
+                            <a class="nav-link" href="Mens-Scrubs.html">Mens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Group Order</a>
+                            <a class="nav-link" href="Accessories-Women.html">Accessories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Accessories</a>
+                            <a class="nav-link" href="GroupOrder.html">Group Order</a>
                         </li>
                     </ul>
                 </div>
+
                 <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar align-self-center d-flex">
                     <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                         <div class="input-group">
                             <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
@@ -130,14 +179,12 @@ https://templatemo.com/tm-559-zay-shop
                     <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <a class="nav-icon position-relative text-decoration-none" href="shopping-cart.html">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                        
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
+                    
+                </div>
                 </div>
             </div>
 
@@ -163,19 +210,76 @@ https://templatemo.com/tm-559-zay-shop
     </div>
 
 
+    <!--content query script-->
+    <script>
+        var ID;
+        var nowLoc = window.location.href;
+        var test;
 
-    <!-- item summary container-->
+        for(i=0; i <nowLoc.length; i++){
+            if(nowLoc[i] == '?'){
+                if(nowLoc.length - i == 6 ){
+                    ID = nowLoc.slice(i+4,nowLoc.length);
+                } 
+                else if(nowLoc.length - i == 5){
+                    ID = nowLoc.slice(length-1);
+                }
+                
+                break;
+            }
+        }
+
+        //test = nowLoc.slice(length-1);
+        //test = nowLoc.length;
+        let xhttp = new XMLHttpRequest();
+        
+        xhttp.onreadystatechange = function () {
+            if(xhttp.readyState == 4 && xhttp.status == 200){
+                
+                jsonfunc(this.responseText); //this = xhttp
+            }
+        }
+
+        xhttp.open("GET","https://www.cloveruniforms.com/product-json?id= " + ID, true);//
+        xhttp.send();
+        let json;
+        
+        function jsonfunc( jsonText ) {
+            json = JSON.parse(jsonText);
+            var cat = "";
+            if(json[0].SEX == "W"){ cat += "Women's ";}
+            else {cat += "Men's ";}
+            if(json[0].P_CAT == "SC"){ cat += "Scrub";}
+            else if(json[0].P_CAT == "ACC"){ cat += "Accessories";}
+            else if(json[0].P_CAT == "LC"){ cat += "Lab Coat";}
+            else if(json[0].P_CAT == "PG"){ cat += "Patient Gown";}
+            else if(json[0].P_CAT == "OA"){ cat += "other apparel";}
+
+            var path = "<img class=\"card-img img-fluid\" src=\"" + json[0].PATH + "\"alt=\"Card image cap\" id=\"product-detail\">";
+
+            
+            document.getElementById('path').innerHTML = path;
+            document.getElementById('category').innerHTML = cat;
+            document.getElementById('name').innerHTML = json[0].P_NAME;
+            document.getElementById('careInfo').innerHTML =  "<br>" + json[0].FABRIC + "<br>" + json[0].CARE_INS + "<br>";
+            document.getElementById('productInfo').innerHTML =  "<br>" + json[0].P_DETAIL + "<br>";
+            document.getElementById('price').innerHTML = "$"+json[0].PRICE;
+        }
+    </script>
+    
+
+
+    <!--Content-->
     <section class="bg-light">
+        <!-- item summary container-->
         <div class="container pb-5">
             <div class="row">
                 <div class="col-lg-5 mt-5">
-                    <div class="row">
-                        <div class="card mb-3">
-                            <img class="card-img img-fluid" data-image="black" class="active" src="images/black.png" 
-                                alt="Card image cap" id="product-detail">
-                            
+                    <div class="card mb-3">
+                        <div id = "path">
                         </div>
-                        
+                    </div>
+                    <div class="row">
                         <!--Start Controls-->
                         <div class="col-1 align-self-center">
                             <a href="#multi-item-example" role="button" data-bs-slide="prev">
@@ -184,6 +288,9 @@ https://templatemo.com/tm-559-zay-shop
                             </a>
                         </div>
                         <!--End Controls-->
+
+
+
                         <!--Start Carousel Wrapper-->
                         <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item" data-bs-ride="carousel">
                             <!--Start Slides-->
@@ -258,6 +365,11 @@ https://templatemo.com/tm-559-zay-shop
                             <!--End Slides-->
                         </div>
                         <!--End Carousel Wrapper-->
+
+
+
+
+
                         <!--Start Controls-->
                         <div class="col-1 align-self-center">
                             <a href="#multi-item-example" role="button" data-bs-slide="next">
@@ -269,15 +381,17 @@ https://templatemo.com/tm-559-zay-shop
                     </div>
                 </div>
                 <!-- col end -->
+                
                 <div class="col-lg-7 mt-5">
                     <div class="card">
                         <div class="card-body">
                             <div class="card-body">
-                                <!-- Product Description-->
                                 <div class="product-description">
-                                    <span>Uniforms</span>
-                                    <h1>HT25 46</h1>
-                                    <p>use light material, nylon</p>
+                                    <span id = "test"></span>
+                                    <span id = "category"></span> <!---->
+                                    <h1 id = "name">/h1><!--Product name-->
+                                    <p></p>
+                                    <!--<p>use light material, nylon</p> -->
                                 </div>
                                
                                 <!-- Product Color -->
@@ -285,32 +399,30 @@ https://templatemo.com/tm-559-zay-shop
                                     <span>Color</span>
                         
                                     <div class="color-choose">
-                                      <div>
-                                        <input data-image="red" type="radio" id="red" name="color" value="red" checked>
-                                        <label for="red"><span></span></label>
-                                      </div>
-                                      <div>
-                                        <input data-image="blue" type="radio" id="blue" name="color" value="blue">
-                                        <label for="blue"><span></span></label>
-                                      </div>
-                                      <div>
-                                        <input data-image="black" type="radio" id="black" name="color" value="black">
-                                        <label for="black"><span></span></label>
-                                      </div>
+                                      <div id="circle-color-black-big"></div>
+                                      <div id="circle-color-royalblue-big"></div>
+                                      <div id="circle-color-steelgrey-big"></div>
+                                      <div id="circle-color-carribeanblue-big"></div>
+                                      <div id="circle-color-burgundy-big"></div>
+                                      <div id="circle-color-red-big"></div>
+                                      <div id="circle-color-navy-big"></div>
+                                      <div id="circle-color-hundergreen-big"></div>
+                                      <div id="circle-color-charcoalgrey-big"></div>
+                                      <div id="circle-color-white-big"></div>
                                     </div>
                                     
                                 </div>
-                                
+                        
                                 <!-- Product Quantity -->
                                 <div class="product-color">
                                     <span>Quantity</span>
                                     <ul class="list-inline pb-3">
                                         <li class="list-inline-item text-right">
                                             
-                                            <input type="hidden" name="product-quanity" id="product-quanity" value="1">
+                                            <input type="hidden" name="product-quanity" value="1">
                                         </li>
                                         <li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
-                                        <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                                        <li class="list-inline-item"><p class="badge bg-secondary" id="var-value">1</p></li>
                                         <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
                                     </ul>
                                 </div>
@@ -318,128 +430,38 @@ https://templatemo.com/tm-559-zay-shop
                                 <div class="product-color">
                                     <span>Embroidery</span>
                                     <div class="cable-choose">
-                                        <button href="#layer1" class="btn-example">Custom Embroidery</button>
+                                        <button href="#layer1" class="btn-example"
+                                            onclick="window.open('shop-single-popup.html','window_name','width=718,height=1200,location=no,status=no,scrollbars=yes');">
+                                            Custom Embroidery</button>
                                     </div>
 
-                                    <!--embroidery popup screen-->
-                                    <div id="layer1" class="pop-layer">
-                                        <div class="pop-container">
-                                            <div class="pop-conts">
-                                                <p class="ctxt mb20">
-                                                    <div class="col-lg-5 mt-5">
-                                                        <div class="card">
-                                                            <img class="card-img img-fluid" 
-                                                            src="/img/uniform_main.jpg" 
-                                                            alt="Card image cap" 
-                                                            id="product-detail">
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-7 mt-4">
-                                                        <div class="select-box">
-                                                            font style
-                                                            <label for="select-box1" class="label select-box1">
-                                                                <span class="label-desc"> 
-                                                                    <select id="select-box1" class="select">
-                                                                        <option value="Choice 1">Falkland Islands</option>
-                                                                        <option value="Choice 2">Germany</option>
-                                                                        <option value="Choice 3">Neverland</option>
-                                                                      </select>
-                                                                </span> 
-                                                                
-                                                            </label>
-                                                            
-                                                        </div>
-                                                        <div class="select-box">
-                                                            font style
-                                                            <label for="select-box1" class="label select-box1">
-                                                                <span class="label-desc"> 
-                                                                    <select id="select-box1" class="select">
-                                                                        <option value="Choice 1">Falkland Islands</option>
-                                                                        <option value="Choice 2">Germany</option>
-                                                                        <option value="Choice 3">Neverland</option>
-                                                                      </select>
-                                                                </span> 
-                                                                
-                                                            </label>
-                                                            
-                                                        </div>
-                                                        <div class="select-box">
-                                                            font style
-                                                            <label for="select-box1" class="label select-box1">
-                                                                <span class="label-desc"> 
-                                                                    <select id="select-box1" class="select">
-                                                                        <option value="Choice 1">Falkland Islands</option>
-                                                                        <option value="Choice 2">Germany</option>
-                                                                        <option value="Choice 3">Neverland</option>
-                                                                      </select>
-                                                                </span> 
-                                                                
-                                                            </label>
-                                                            
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    
-
-
-                                                    <div class="row">
-                                                        <div class="cable-config">
-                                                            <div class="cable-choose">
-                                                              <button>   LEFT SIDE  </button>
-                                                              <button>  RIGHT SIDE  </button>
-                                                            </div>
-                                                            <div class="product-color"></div>
-                                                        </div>
-                                                        <span>upload logo</span> <input type="file" (change)="onFileChange($event)" ></a>
-                                                    </div>    
-                                                        
-                                                    <div class="row pb-3">
-                                                        <div class="product-price">
-                                                            <span>expected additional price : 148$</span>
-                                                            
-                                                          </div>
-                                                       
-                                                    </div>
-                                                </p>
-                                                
-                                                <div class="btn-r">
-                                                    <a href="#" class="btn-layerClose">Apply Embroidery</a>
-                                                    <a href="#" class="btn-layerClose">Close</a>
-                                                </div>
-                                                
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        
-                                <div class="row">
-                                    <div class="cable-config">
-                                        <span>Size</span>
-                            
-                                        <div class="cable-choose">
-                                          <button>XS</button>
-                                          <button>S</button>
-                                          <button>M</button>
-                                          <button>L</button>
-                                          <button>XL</button>
-                                          <button>XXL</button>
-                                        </div>
-                                        <div class="product-color"></div>
-                            
-                                       
-                                    </div>
                                     
                                 </div>
+                                    <div class="row">
+                                        <div class="cable-config">
+                                            <span>Size</span>
+                                            <div class="cable-choose">
+                                                <button>XS</button>
+                                                <button>S</button>
+                                                <button>M</button>
+                                                <button>L</button>
+                                                <button>XL</button>
+                                                <button>XXL</button>
+                                            </div>
+                                            <div class="product-color"></div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div class="row pb-3">
+                                        <div class="product-price">
+                                            <span id = "price"></span>
+                                            <a href="shop.html" class="cart-btn">Go to order</a>
+                                        </div>
+                                       
+                                    </div>
+                                </form>
                                 
-                                <div class="row pb-3">
-                                    <div class="product-price">
-                                        <span>148$</span>
-                                        <a href="shop.html" class="cart-btn">Add to cart</a>
-                                      </div>
-                                   
-                                </div>
                                 
 
                             </div>
@@ -449,37 +471,73 @@ https://templatemo.com/tm-559-zay-shop
                 </div>
             </div>
         </div>
-        <!--item details container(상세 제품 이미지 나열)-->
+
+
+        <!--item details container-->
         <div class="container pb-5">
             <div class="col-lg-12 mt-5">
                 <div class="card mb-3">
-                    <img class="card-img img-fluid" src="/img/uniform_details.jpg" alt="Card image cap" id="product-detail">
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="product-description">
+                                <br><br><br>
+                                <h1>Fabric & Care Instructions</h1><br>
+                                <p id = "careInfo"></p>
+                                <br>
+                                <h1>Product descriptions</h1><br>
+                                <p id="productInfo"></p>
+                                <br>
+                                <h1>Fit</h1><br>
+                                <p>Model is 5’4”</p>
+                                <p>Wearing Size S</p>
+            
+                                <br>
+                            </div>
+                            <img class="card-img img-fluid" src="/img/sunqeust-product/top1.png" id="product-detail">
+                            
+                        </div>
+                        
+                    </div>
+                    
+                   
                 </div>
             </div>
         </div>
     </section>
     <!-- Close Content -->
+    
 
-  
-    <!-- under informations(하단 회사 정보) -->
+    
+
+    <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">CLOVER</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            123 Consectetur at ligula 10660
+                            419 WEST 145TH STREET NEW YORK, NY 10031
+
                         </li>
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                            <a class="text-decoration-none" href="tel:212-730-2831">212-730-2831</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                            <a class="text-decoration-none" href="mailto:info@styleciti.com">CS@cloveruniforms.com</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none" href="about.html">About us</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none" href="term-and-policy.html">Terms & Policy</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none" href="#">FAQs</a>
                         </li>
                     </ul>
                 </div>
@@ -487,24 +545,24 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
-                        <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
-                        <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
+                        <li><a class="text-decoration-none" href="Womens-Scrubs.html">Scrubs</a></li>
+                        <li><a class="text-decoration-none" href="Womens-LabCoats.html">Lab Coats</a></li>
+                        <li><a class="text-decoration-none" href="Womens-OtherApparel.html">Other Apparel</a></li>
+                        <li><a class="text-decoration-none" href="Womens-PatientGowns.html">Patient Gowns</a></li>
+                        <li><a class="text-decoration-none" href="Accessories-Women.html">Accessories</a></li>
+                        <li><a class="text-decoration-none" href="GroupOrder.html">Group Order</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">More Info</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Contact</a></li>
+                        <li><a class="text-decoration-none" href="#">######</a></li>
+                        <li><a class="text-decoration-none" href="#">######</a></li>
+                        <li><a class="text-decoration-none" href="#">######</a></li>
+                        <li><a class="text-decoration-none" href="#">######</a></li>
+                        <li><a class="text-decoration-none" href="#">######</a></li>
+                        <li><a class="text-decoration-none" href="#">######</a></li>
                     </ul>
                 </div>
 
@@ -514,65 +572,14 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-12 mb-3">
                     <div class="w-100 my-3 border-top border-light"></div>
                 </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="subscribeEmail">Email address</label>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
-                    </div>
-                </div>
+                <div class="col-auto me-auto"></div>
             </div>
         </div>
-
-        <div class="w-100 bg-black py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2021 Company Name 
-                            | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </footer>
     <!-- End Footer -->
 
-    <!-- Start Script -->
-    <script src="/js/jquery-1.11.0.min.js"></script>
-    <script src="/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/templatemo.js"></script>
-    <script src="/js/custom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-    <script src="/js/color-index.js" charset="utf-8"></script>
-
-    <!-- End Script -->
 
     <!-- Start Slider Script -->
-    <script src="/js/slick.min.js"></script>
-
-    <!-- Color Change Scripts -->
-    
-
     <script>
         $('#carousel-related-product').slick({
             infinite: true,
@@ -605,10 +612,6 @@ https://templatemo.com/tm-559-zay-shop
         });
     </script>
     <!-- End Slider Script -->
-
-    <!--embriodery popup script-->
-    
-
 </body>
 
 </html>
