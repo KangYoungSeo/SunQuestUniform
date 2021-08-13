@@ -436,11 +436,11 @@ connection.connect(function(err){
 })
 
 function handleDisconnect() {
-  connection.connect(function(err) {       
-    clearTimeout();     
+  clearTimeout();
+  connection.connect(function(err) {            
     if(err) {                            
       console.log('error when connecting to db:', err);
-      setTimeout(handleDisconnect, 20000); 
+      setTimeout(handleDisconnect, 80000); 
     }                                   
   });                                 
                                          
