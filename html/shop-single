@@ -211,7 +211,7 @@
         var nowLoc = window.location.href;
         var test;
 
-        for(i=0; i <nowLoc.length; i++){
+        for(i=0; i < nowLoc.length; i++){
             if(nowLoc[i] == '?'){
                 if(nowLoc.length - i == 6 ){
                     ID = nowLoc.slice(i+4,nowLoc.length);
@@ -235,7 +235,7 @@
             }
         }
 
-        xhttp.open("GET","https://www.cloveruniforms.com/product-json?id= " + ID, true);//
+        xhttp.open("GET","https://www.cloveruniforms.com/product-json?id=" + ID, true);//
         xhttp.send();
         let json;
         
