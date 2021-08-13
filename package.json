@@ -21,8 +21,5 @@
     "mysql": "^2.18.1",
     "pm2": "^5.1.0",
     "sanitize-html": "^2.4.0"
-  },
-  "devDependencies": {
-    "live-server": "^1.2.1"
   }
 }
