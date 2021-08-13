@@ -27,7 +27,7 @@ app.get('/', function(request, response){ // home으로 들어오면, 여기가 
   // 현재 data 파일에 HTML이라는 파일 1개 있음. 
   // fs 모듈은 위에서 정의해야 함. 
   //fs.readdir('./html', function(error, filelist){
-    //var filteredId = path.parse(request.params.pageId).base; // queryData.id
+    //var filteredId = path.parse(request.params.pageId).base; 
     fs.readFile(`html/Main`, 'utf8', function(err, description){
       var title = "";       
       var topMenu = `<li class="nav-item">
