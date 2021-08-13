@@ -436,7 +436,8 @@ connection.connect(function(err){
 })
 
 function handleDisconnect() {
-  connection.connect(function(err) {            
+  connection.connect(function(err) {       
+    clearTimeout();     
     if(err) {                            
       console.log('error when connecting to db:', err);
       setTimeout(handleDisconnect, 20000); 
