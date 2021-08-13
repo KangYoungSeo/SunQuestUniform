@@ -6,20 +6,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/icon/clov-16.ico" />
 
     <!-- Start timezone-master-css index.html fonts -->
-    <link rel="stylesheet" href="assets/timezone-master-css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/flaticon.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/slicknav.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/animate.min.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/themify-icons.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/slick.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/nice-select.css">
-    <link rel="stylesheet" href="assets/timezone-master-css/style.css">
+    <link rel="stylesheet" href="/timezone-master-css/bootstrap.min.css">
+    <link rel="stylesheet" href="/timezone-master-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/timezone-master-css/flaticon.css">
+    <link rel="stylesheet" href="/timezone-master-css/slicknav.css">
+    <link rel="stylesheet" href="/timezone-master-css/animate.min.css">
+    <link rel="stylesheet" href="/timezone-master-css/magnific-popup.css">
+    <link rel="stylesheet" href="/timezone-master-css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/timezone-master-css/themify-icons.css">
+    <link rel="stylesheet" href="/timezone-master-css/slick.css">
+    <link rel="stylesheet" href="/timezone-master-css/nice-select.css">
+    <link rel="stylesheet" href="/timezone-master-css/style.css">
     <!-- End timezone-master-css index.html fonts -->
 
     <!--ogani-master CSS Start-->
@@ -27,18 +27,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="assets/ogani-master-css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/ogani-master-css/style.css" type="text/css">
+    <link rel="stylesheet" href="/ogani-master-css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/ogani-master-css/font-awesome.min.css" >
+    <link rel="stylesheet" href="/ogani-master-css/elegant-icons.css" >
+    <link rel="stylesheet" href="/ogani-master-css/nice-select.css" >
+    <link rel="stylesheet" href="/ogani-master-css/jquery-ui.min.css" >
+    <link rel="stylesheet" href="/ogani-master-css/owl.carousel.min.css" >
+    <link rel="stylesheet" href="/ogani-master-css/slicknav.min.css" >
+    <link rel="stylesheet" href="/ogani-master-css/style.css" >
     <!--ogani-master CSS End-->
-    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+
     
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/templatemo.css">
@@ -49,26 +48,26 @@
     <link rel="stylesheet" href="/css/fontawesome.min.css">
 
     <!-- Slick -->
-    <link rel="stylesheet" type="text/css" href="/css/slick.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
+    <link rel="stylesheet" href="/css/slick.min.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
     <!--plus details-->
     <link href="/css/details.css" rel="stylesheet">
     <link href="/css/embroidery.css" rel="stylesheet">
-    <meta name="robots" content="noindex,follow" />
+   
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
 
 
         <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <script src="/js/jquery-1.11.0.min.js"></script>
+    <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/templatemo.js"></script>
+    <script src="/js/custom.js"></script>
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
 
     <!-- Core Item New Css-->
-    <link rel="stylesheet" href="/css/circle-color.css" type="text/css">
+    <link rel="stylesheet" href="/css/circle-color.css">
 
 
     <script src="/js/jquery-1.11.0.min.js"></script>
@@ -102,10 +101,6 @@
 </script>
 <!-- 여기까지-->
 </head>
-</html>
-
-
-
 
 
 <body>
@@ -121,8 +116,8 @@
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:212-730-2831">212-730-2831</a>
                 </div>
                 <div>
-                    <a href="login.html"><img src="/img/icon/Login.png" width="20" height="20" vspace="1" hspace="2"></a>
-                    <a href="login.html" style="color: white">Login</a>
+                    <a href="/login"><img src="/img/icon/Login.png" width="20" height="20" vspace="1" hspace="2"></a>
+                    <a href="/login" style="color: white">Login</a>
                 </div>
             </div>
         </div>
@@ -134,7 +129,7 @@
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container 0d-flex justify-content-between align-items-center">
 
-            <a href="Main.html"><img src="/img/icon/Clover.png" width="200" height="40" vspace="20"><a/>
+            <a href="/"><img src="/img/icon/Clover.png" width="200" height="40" vspace="20"><a/>
             
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -144,16 +139,16 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="Womens-Scrubs.html">Womens</a>
+                            <a class="nav-link" href="/Womens-Scrubs">Womens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Mens-Scrubs.html">Mens</a>
+                            <a class="nav-link" href="/Mens-Scrubs">Mens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Accessories-Women.html">Accessories</a>
+                            <a class="nav-link" href="/Accessories-Women">Accessories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="GroupOrder.html">Group Order</a>
+                            <a class="nav-link" href="/GroupOrder">Group Order</a>
                         </li>
                     </ul>
                 </div>
@@ -456,7 +451,7 @@
                                     <div class="row pb-3">
                                         <div class="product-price">
                                             <span id = "price"></span>
-                                            <a href="shop.html" class="cart-btn">Go to order</a>
+                                            <a href="/shop" class="cart-btn">Go to order</a>
                                         </div>
                                        
                                     </div>
@@ -545,12 +540,12 @@
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="Womens-Scrubs.html">Scrubs</a></li>
-                        <li><a class="text-decoration-none" href="Womens-LabCoats.html">Lab Coats</a></li>
-                        <li><a class="text-decoration-none" href="Womens-OtherApparel.html">Other Apparel</a></li>
-                        <li><a class="text-decoration-none" href="Womens-PatientGowns.html">Patient Gowns</a></li>
-                        <li><a class="text-decoration-none" href="Accessories-Women.html">Accessories</a></li>
-                        <li><a class="text-decoration-none" href="GroupOrder.html">Group Order</a></li>
+                        <li><a class="text-decoration-none" href="/Womens-Scrubs">Scrubs</a></li>
+                        <li><a class="text-decoration-none" href="/Womens-LabCoats">Lab Coats</a></li>
+                        <li><a class="text-decoration-none" href="/Womens-OtherApparel">Other Apparel</a></li>
+                        <li><a class="text-decoration-none" href="/Womens-PatientGowns">Patient Gowns</a></li>
+                        <li><a class="text-decoration-none" href="/Accessories-Women">Accessories</a></li>
+                        <li><a class="text-decoration-none" href="/GroupOrder">Group Order</a></li>
                     </ul>
                 </div>
 
