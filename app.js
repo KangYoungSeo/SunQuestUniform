@@ -434,7 +434,7 @@ connection.connect(function(err){
   if(err) { console.log('Disconnected');throw err;}
   console.log('Connected');
 })
-
+/*
 function handleDisconnect() {
   clearTimeout();
   connection.connect(function(err) {            
@@ -454,7 +454,7 @@ function handleDisconnect() {
   });
 }
 handleDisconnect();
-
+*/
 
 //list page base query
 var listsql = 'select P_ID, LCH_DATE, P_NAME, PRICE, SORT, PATH from product where ';
